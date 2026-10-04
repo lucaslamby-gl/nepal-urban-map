@@ -1,6 +1,6 @@
 """Step 4: bundle processed data into web/data for the static page."""
 import json, shutil, os, pandas as pd, geopandas as gpd
-OUT, WEB = 'data/processed', 'web/data'
+OUT, WEB = 'data/processed', 'docs/data'
 os.makedirs(WEB, exist_ok=True)
 tot = json.load(open(f'{OUT}/totals.json')); Y0, Y1 = tot['years']
 for y in (Y0, Y1):
