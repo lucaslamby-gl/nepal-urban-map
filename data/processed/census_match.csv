@@ -1,0 +1,776 @@
+adm3_pcode,adm3_name,adm2_name,census_name,pop2001,pop2011,pop2021
+NP0101301,Phungling,Taplejung,Phungling Municipality,23651.0,26626.0,28449.0
+NP0101401,Phaktanlung,Taplejung,Phaktanlung Gaunpalika,12938.0,12017.0,11791.0
+NP0101402,Mikwakhola,Taplejung,Mikwakhola Gaunpalika,9561.0,9160.0,7964.0
+NP0101403,Sirijanga,Taplejung,Sirijanga Gaunpalika,17134.0,15806.0,14114.0
+NP0101404,Meringden,Taplejung,Meringden Gaunpalika,,13284.0,11838.0
+NP0101405,Maiwakhola,Taplejung,Maiwakhola Gaunpalika,12485.0,11094.0,10213.0
+NP0101406,Aatharai Tribeni,Taplejung,Aatharai Tribeni Gaunpalika,15978.0,13784.0,12296.0
+NP0101407,Pathivara Yangwarak,Taplejung,Pathivara Yangwarak Gaunpalika,15509.0,13591.0,11806.0
+NP0101408,Sidingba,Taplejung,Sidingba Gaunpalika,13477.0,12099.0,10979.0
+NP0102301,Phidim,Panchthar,Phidim Municipality,,50164.0,48495.0
+NP0102401,Hilihan,Panchthar,Hilihan Gaunpalika,25895.0,22954.0,19085.0
+NP0102402,Yangbarak,Panchthar,Yangbarak Gaunpalika,19866.0,18353.0,16821.0
+NP0102403,Falelung,Panchthar,Falelung Gaunpalika,,21884.0,20361.0
+NP0102404,Kummayak,Panchthar,Kummayak Gaunpalika,18591.0,16119.0,12746.0
+NP0102405,Falgunanda,Panchthar,Falgunanda Gaunpalika,25329.0,24233.0,21289.0
+NP0102406,Tumbewa,Panchthar,Tumbewa Gaunpalika,15028.0,13454.0,11189.0
+NP0102407,Miklajung,Panchthar,Miklajung Gaunpalika,27456.0,24656.0,21061.0
+NP0103301,Deumai,Ilam,Deumai Municipality,,32386.0,30969.0
+NP0103302,Illam,Ilam,Illam Municipality,44940.0,49330.0,50085.0
+NP0103303,Suryodaya,Ilam,Suryodaya Municipality,,56957.0,54727.0
+NP0103304,Mai,Ilam,Mai Municipality,,33210.0,30732.0
+NP0103401,Fakfokathum,Ilam,Fakfokathum Gaunpalika,,22160.0,19706.0
+NP0103402,Sandakpur,Ilam,Sandakpur Gaunpalika,,16065.0,15444.0
+NP0103403,Mai Jogmai,Ilam,Mai Jogmai Gaunpalika,,21064.0,19131.0
+NP0103404,Chulachuli,Ilam,Chulachuli Gaunpalika,,21413.0,23157.0
+NP0103405,Mangsebung,Ilam,Mangsebung Gaunpalika,16028.0,18534.0,16810.0
+NP0103406,Rong,Ilam,Rong Gaunpalika,18983.0,19135.0,17367.0
+NP0104301,Damak,Jhapa,Damak Municipality,35009.0,75743.0,107227.0
+NP0104302,Shivasatakshi,Jhapa,Shivasatakshi Municipality,43632.0,64638.0,74077.0
+NP0104303,Kankai,Jhapa,Kankai Municipality,32801.0,40294.0,53148.0
+NP0104304,Arjundhara,Jhapa,Arjundhara Municipality,50513.0,60480.0,84018.0
+NP0104305,Mechinagar,Jhapa,Mechinagar Municipality,97422.0,112997.0,133073.0
+NP0104306,Gauradaha,Jhapa,Gauradaha Municipality,50793.0,53049.0,60451.0
+NP0104307,Birtamod,Jhapa,Birtamod Municipality,58001.0,82592.0,116192.0
+NP0104308,Bhadrapur,Jhapa,Bhadrapur Municipality,56841.0,66629.0,70913.0
+NP0104401,Kamal,Jhapa,Kamal Gaunpalika,34530.0,44679.0,53894.0
+NP0104402,Buddhashanti,Jhapa,Buddhashanti Gaunpalika,37179.0,41624.0,53010.0
+NP0104403,Gauriganj,Jhapa,Gauriganj Gaunpalika,30759.0,33085.0,35506.0
+NP0104404,Jhapa,Jhapa,Jhapa Gaunpalika,31008.0,34622.0,39302.0
+NP0104405,Barhadashi,Jhapa,Barhadashi Gaunpalika,32502.0,33674.0,37946.0
+NP0104406,Haldibari,Jhapa,Haldibari Gaunpalika,28129.0,28951.0,32722.0
+NP0104407,Kachanakawal,Jhapa,Kachanakawal Gaunpalika,30229.0,39593.0,41317.0
+NP0105101,Biratnagar,Morang,Biratnagar Metropolitian City,,218526.0,243927.0
+NP0105301,Letang,Morang,Letang Municipality,,32782.0,38152.0
+NP0105302,Sundarharaicha,Morang,Sundarharaicha Municipality,62221.0,80621.0,120213.0
+NP0105303,Belbari,Morang,Belbari Municipality,58397.0,65974.0,81771.0
+NP0105304,Pathari Shanishchare,Morang,Pathari Shanishchare Municipality,56012.0,61132.0,72451.0
+NP0105305,Urlabari,Morang,Urlabari Municipality,,54696.0,70908.0
+NP0105306,Rangeli,Morang,Rangeli Municipality,51186.0,51357.0,57494.0
+NP0105307,Sunwarshi,Morang,Sunwarshi Municipality,,51444.0,56034.0
+NP0105308,Ratuwamai,Morang,Ratuwamai Municipality,,55418.0,61139.0
+NP0105401,Kerabari,Morang,Kerabari Gaunpalika,,30918.0,34504.0
+NP0105402,Miklajung,Morang,Miklajung Gaunpalika,,28709.0,33167.0
+NP0105403,Kanepokhari,Morang,Kanepokhari Gaunpalika,37359.0,38041.0,43193.0
+NP0105404,Budhiganga,Morang,Budhiganga Gaunpalika,34193.0,41971.0,51497.0
+NP0105405,Gramthan,Morang,Gramthan Gaunpalika,31374.0,32717.0,36024.0
+NP0105406,Katahari,Morang,Katahari Gaunpalika,32539.0,39775.0,48510.0
+NP0105407,Jahada,Morang,Jahada Gaunpalika,,41819.0,47639.0
+NP0105408,Dhanapalthan,Morang,Dhanapalthan Gaunpalika,35217.0,39470.0,45348.0
+NP0106201,Dharan,Sunsari,Dharan Sub-Metropolitian City,114571.0,141439.0,166531.0
+NP0106202,Itahari,Sunsari,Itahari Sub-Metropolitian City,90364.0,143786.0,197241.0
+NP0106301,Barahachhetra,Sunsari,Barahachhetra Municipality,,,91087.0
+NP0106302,Ramdhuni,Sunsari,Ramdhuni Municipality,,52328.0,63452.0
+NP0106303,Inaruwa,Sunsari,Inaruwa Municipality,,64749.0,74914.0
+NP0106304,Duhabi,Sunsari,Duhabi Municipality,49008.0,56573.0,66074.0
+NP0106401,Koshi,Sunsari,Koshi Gaunpalika,35811.0,43987.0,48804.0
+NP0106402,Bhokraha Narsingh,Sunsari,Bhokraha Narsingh Gaunpalika,33928.0,40636.0,49280.0
+NP0106403,Gadhi,Sunsari,Gadhi Gaunpalika,32498.0,34852.0,38739.0
+NP0106404,Harinagar,Sunsari,Harinagar Gaunpalika,36190.0,41070.0,49845.0
+NP0106405,Dewangunj,Sunsari,Dewangunj Gaunpalika,31222.0,35283.0,39030.0
+NP0106406,Barju,Sunsari,Barju Gaunpalika,27908.0,31180.0,36249.0
+NP0106595,Koshi Tappu,Sunsari,,,,
+NP0107301,Mahalaxmi,Dhankuta,Mahalaxmi Municipality,26324.0,24800.0,22182.0
+NP0107302,Pakhribas,Dhankuta,Pakhribas Municipality,24273.0,22078.0,19104.0
+NP0107303,Dhankuta,Dhankuta,Dhankuta Municipality,30994.0,38629.0,35983.0
+NP0107401,Shahidbhumi,Dhankuta,Shahidbhumi Gaunpalika,,,17767.0
+NP0107402,Chhathar Jorpati,Dhankuta,Chhathar Jorpati Gaunpalika,19693.0,18322.0,16456.0
+NP0107403,Sangurigadhi,Dhankuta,Sangurigadhi Gaunpalika,23080.0,21537.0,19561.0
+NP0107404,Chaubise,Dhankuta,Chaubise Gaunpalika,21794.0,19283.0,17677.0
+NP0108301,Laligurans,Terhathum,Laligurans Municipality,18205.0,17000.0,15329.0
+NP0108302,Myanglung,Terhathum,Myanglung Municipality,,20337.0,18750.0
+NP0108401,Menchhayayem,Terhathum,Menchhayayem Gaunpalika,9694.0,8078.0,6678.0
+NP0108402,Phedap,Terhathum,Phedap Gaunpalika,20596.0,17700.0,15169.0
+NP0108403,Aatharai,Terhathum,Aatharai Gaunpalika,25374.0,21747.0,18156.0
+NP0108404,Chhathar,Terhathum,Chhathar Gaunpalika,19398.0,16715.0,14197.0
+NP0109301,Khandabari,Sankhuwasabha,Khandabari Municipality,26756.0,31534.0,35565.0
+NP0109302,Panchakhapan,Sankhuwasabha,Panchakhapan Municipality,17926.0,17521.0,16348.0
+NP0109303,Chainapur,Sankhuwasabha,Chainapur Municipality,28294.0,27462.0,26799.0
+NP0109304,Dharmadevi,Sankhuwasabha,Dharmadevi Municipality,19310.0,18235.0,16053.0
+NP0109305,Madi,Sankhuwasabha,Madi Municipality,15959.0,14473.0,13273.0
+NP0109401,Makalu,Sankhuwasabha,Makalu Gaunpalika,,13572.0,13424.0
+NP0109402,Bhotkhola,Sankhuwasabha,Bhotkhola Gaunpalika,,6576.0,6438.0
+NP0109403,Silichong,Sankhuwasabha,Silichong Gaunpalika,,11812.0,10296.0
+NP0109404,Chichila,Sankhuwasabha,Chichila Gaunpalika,7188.0,7065.0,6577.0
+NP0109405,Sabhapokhari,Sankhuwasabha,Sabhapokhari Gaunpalika,11231.0,10492.0,9970.0
+NP0110301,Shadananda,Bhojpur,Shadananda Municipality,33560.0,31612.0,29342.0
+NP0110302,Bhojpur,Bhojpur,Bhojpur Municipality,,28107.0,26007.0
+NP0110401,Salpa Silichho,Bhojpur,Salpa Silichho Gaunpalika,13870.0,13111.0,12284.0
+NP0110402,Temkemaiyum,Bhojpur,Temkemaiyum Gaunpalika,22027.0,18233.0,15464.0
+NP0110403,Arun,Bhojpur,Arun Gaunpalika,19574.0,17768.0,14591.0
+NP0110404,Ramprasad Rai,Bhojpur,Ramprasad Rai Gaunpalika,21493.0,18894.0,15673.0
+NP0110405,Pauwa Dunma,Bhojpur,Pauwa Dunma Gaunpalika,17976.0,15414.0,12107.0
+NP0110406,Aamchowk,Bhojpur,Aamchowk Gaunpalika,20753.0,18777.0,14968.0
+NP0110407,Hatuwagadhi,Bhojpur,Hatuwagadhi Gaunpalika,24252.0,20543.0,16175.0
+NP0111301,Solu Dhudhakunda,Solukhumbu,Solu Dhudhakunda Municipality,,20977.0,25678.0
+NP0111401,Khumbu Pasanglhamu,Solukhumbu,Khumbu Pasanglhamu Gaunpalika,,9133.0,8720.0
+NP0111402,Mahakulung,Solukhumbu,Mahakulung Gaunpalika,,11452.0,11847.0
+NP0111403,Likhu Pike,Solukhumbu,Likhu Pike Gaunpalika,,5534.0,5334.0
+NP0111404,Mapya Dudhkoshi,Solukhumbu,Mapya Dudhkoshi Gaunpalika,,13420.0,12648.0
+NP0111405,Necha Salyan,Solukhumbu,Necha Salyan Gaunpalika,17366.0,16149.0,11381.0
+NP0111406,Thulung Dudhkoshi,Solukhumbu,Thulung Dudhkoshi Gaunpalika,20938.0,19691.0,18354.0
+NP0111407,Sotang,Solukhumbu,Sotang Gaunpalika,,9530.0,9025.0
+NP0112301,Halesi Tuwachung,Khotang,Halesi Tuwachung Municipality,30863.0,29575.0,27078.0
+NP0112302,Diktel Rupakot Majhuwagadhi,Khotang,Diktel Rupakot Majhuwagadhi Municipality,50942.0,47860.0,43008.0
+NP0112401,Aiselukharka,Khotang,Aiselukharka Gaunpalika,18648.0,16098.0,13217.0
+NP0112402,Kepilasgadhi,Khotang,Kepilasgadhi Gaunpalika,,16071.0,13231.0
+NP0112403,Rawa Besi,Khotang,Rawa Besi Gaunpalika,15340.0,13369.0,11199.0
+NP0112404,Diprung Chuichumma,Khotang,Diprung Chuichumma Gaunpalika,,,16305.0
+NP0112405,Sakela,Khotang,Sakela Gaunpalika,14185.0,11594.0,9623.0
+NP0112406,Khotehang,Khotang,Khotehang Gaunpalika,26327.0,22485.0,16846.0
+NP0112407,Baraha Pokhari,Khotang,Baraha Pokhari Gaunpalika,15033.0,14349.0,11397.0
+NP0112408,Jante Dhunga,Khotang,Jante Dhunga Gaunpalika,17881.0,15519.0,12016.0
+NP0113301,Siddhicharan,Okhaldhunga,Siddhicharan Municipality,,28844.0,27351.0
+NP0113401,Khiji Demba,Okhaldhunga,Khiji Demba Gaunpalika,,15291.0,15559.0
+NP0113402,Likhu,Okhaldhunga,Likhu Gaunpalika,,14057.0,12104.0
+NP0113403,Molung,Okhaldhunga,Molung Gaunpalika,,16274.0,16440.0
+NP0113404,Champadevi,Okhaldhunga,Champadevi Gaunpalika,19058.0,18661.0,16311.0
+NP0113405,Sunkoshi,Okhaldhunga,Sunkoshi Gaunpalika,19431.0,18558.0,17783.0
+NP0113406,Chishankhu Gadhi,Okhaldhunga,Chishankhu Gadhi Gaunpalika,17978.0,15206.0,13844.0
+NP0113407,Manebhanjyang,Okhaldhunga,Manebhanjyang Gaunpalika,22094.0,21093.0,19597.0
+NP0114301,Katari,Udayapur,Katari Municipality,50505.0,56545.0,59507.0
+NP0114302,Triyuga,Udayapur,Triyuga Municipality,71131.0,88967.0,102725.0
+NP0114303,Chaudandigadhi,Udayapur,Chaudandigadhi Municipality,45023.0,48750.0,53631.0
+NP0114304,Belaka,Udayapur,Belaka Municipality,38727.0,42450.0,51043.0
+NP0114401,Tapli,Udayapur,Tapli Gaunpalika,14643.0,14567.0,13344.0
+NP0114402,Limchunbung,Udayapur,Limchunbung Gaunpalika,13800.0,11992.0,9689.0
+NP0114403,Udayapurgadhi,Udayapur,Udayapurgadhi Gaunpalika,29741.0,30780.0,28926.0
+NP0114404,Rautamai,Udayapur,Rautamai Gaunpalika,23113.0,23481.0,20324.0
+NP0114595,Koshi Tappu,Udayapur,,,,
+NP0215301,Surunga,Saptari,Surunga Municipality,,44222.0,49460.0
+NP0215302,Khadak,Saptari,Khadak Municipality,,45428.0,52778.0
+NP0215303,Shambhunath,Saptari,Shambhunath Municipality,30746.0,35222.0,39634.0
+NP0215304,Saptakoshi,Saptari,Saptakoshi Municipality,19197.0,21237.0,23510.0
+NP0215305,Kanchanrup,Saptari,Kanchanrup Municipality,47099.0,53366.0,58466.0
+NP0215306,Bode Barsain,Saptari,Bode Barsain Municipality,,43293.0,46017.0
+NP0215307,Dakneshwori,Saptari,Dakneshwori Municipality,39258.0,42833.0,47739.0
+NP0215308,Rajbiraj,Saptari,Rajbiraj Municipality,,68899.0,70803.0
+NP0215309,Hanumannagar Kankalini,Saptari,Hanumannagar Kankalini Municipality,39199.0,45840.0,52796.0
+NP0215401,Rupani,Saptari,Rupani Gaunpalika,,26490.0,29877.0
+NP0215402,Agnisair Krishna Sabaran,Saptari,Agnisair Krishna Sabaran Gaunpalika,,27129.0,31634.0
+NP0215403,Tirahut,Saptari,Tirahut Gaunpalika,20780.0,22037.0,24034.0
+NP0215404,Balan-Bihul,Saptari,Balan-Bihul Gaunpalika,,21842.0,23527.0
+NP0215405,Mahadewa,Saptari,Mahadewa Gaunpalika,25419.0,28542.0,30315.0
+NP0215406,Rajgadh,Saptari,Rajgadh Gaunpalika,,,32462.0
+NP0215407,Bishnupur,Saptari,Bishnupur Gaunpalika,,23166.0,27703.0
+NP0215408,Chhinnamasta,Saptari,Chhinnamasta Gaunpalika,25054.0,28437.0,29946.0
+NP0215409,Tilathi Koiladi,Saptari,Tilathi Koiladi Gaunpalika,,31803.0,33658.0
+NP0215595,Koshi Tappu,Saptari,,,,
+NP0216301,Karjanha,Siraha,Karjanha Municipality,26346.0,31357.0,38557.0
+NP0216302,Mirchaiya,Siraha,Mirchaiya Municipality,,49131.0,59425.0
+NP0216303,Golbazar,Siraha,Golbazar Municipality,47208.0,52137.0,63885.0
+NP0216304,Dhangadhimai,Siraha,Dhangadhimai Municipality,42337.0,47449.0,53355.0
+NP0216305,Lahan,Siraha,Lahan Municipality,81918.0,92040.0,102031.0
+NP0216306,Kalyanpur,Siraha,Kalyanpur Municipality,45812.0,49344.0,58872.0
+NP0216307,Sukhipur,Siraha,Sukhipur Municipality,34771.0,37027.0,42033.0
+NP0216308,Siraha,Siraha,Siraha Municipality,75171.0,82920.0,95410.0
+NP0216401,Naraha,Siraha,Naraha Gaunpalika,16834.0,19369.0,22760.0
+NP0216402,Bishnupur,Siraha,Bishnupur Gaunpalika,17144.0,18543.0,22781.0
+NP0216403,Arnama,Siraha,Arnama Gaunpalika,21158.0,22912.0,27899.0
+NP0216404,Aurahi,Siraha,Aurahi Gaunpalika,21629.0,23084.0,26478.0
+NP0216405,Bariyarpatti,Siraha,Bariyarpatti Gaunpalika,22317.0,25313.0,29712.0
+NP0216406,Laxmipur Patari,Siraha,Laxmipur Patari Gaunpalika,,28073.0,31118.0
+NP0216407,Nawarajpur,Siraha,Nawarajpur Gaunpalika,16636.0,19056.0,20788.0
+NP0216408,Sakhuwa Nankarkatti,Siraha,Sakhuwa Nankarkatti Gaunpalika,16778.0,18574.0,20844.0
+NP0216409,Bhagawanpur,Siraha,Bhagawanpur Gaunpalika,17468.0,20999.0,23380.0
+NP0217201,Janakpurdham,Dhanusa,Janakpurdham Sub-Metropolitian City,,162842.0,194556.0
+NP0217301,Mithila,Dhanusa,Mithila Municipality,,45227.0,48676.0
+NP0217302,Ganeshman Charnath,Dhanusa,Ganeshman Charnath Municipality,,36338.0,44082.0
+NP0217303,Chhireshwornath,Dhanusa,Chhireshwornath Municipality,,42155.0,51075.0
+NP0217304,Dhanushadham,Dhanusa,Dhanushadham Municipality,,45585.0,52024.0
+NP0217305,Mithila Bihari,Dhanusa,Mithila Bihari Municipality,,33556.0,38273.0
+NP0217306,Sabaila,Dhanusa,Sabaila Municipality,,52389.0,62282.0
+NP0217307,Hansapur,Dhanusa,Hansapur Municipality,,38216.0,44949.0
+NP0217308,Shahidnagar,Dhanusa,Shahidnagar Municipality,,47422.0,53812.0
+NP0217309,Nagarain,Dhanusa,Nagarain Municipality,33485.0,35583.0,38037.0
+NP0217310,Bideha,Dhanusa,Bideha Municipality,31266.0,32266.0,37697.0
+NP0217311,Kamala,Dhanusa,Kamala Municipality,37723.0,38624.0,44597.0
+NP0217401,Bateshwor,Dhanusa,Bateshwor Gaunpalika,18405.0,21530.0,21742.0
+NP0217402,Laxminiya,Dhanusa,Laxminiya Gaunpalika,26095.0,28251.0,31881.0
+NP0217403,Aurahi,Dhanusa,Aurahi Gaunpalika,20963.0,22578.0,24053.0
+NP0217404,Dhanauji,Dhanusa,Dhanauji Gaunpalika,18964.0,21395.0,21942.0
+NP0217405,Mukhiyapatti Musaharmiya,Dhanusa,Mukhiyapatti Musaharmiya Gaunpalika,,25482.0,28208.0
+NP0217406,Janak Nandini,Dhanusa,Janak Nandini Gaunpalika,23716.0,25338.0,27146.0
+NP0218301,Bardibas,Mahottari,Bardibas Municipality,57008.0,64721.0,74361.0
+NP0218302,Gaushala,Mahottari,Gaushala Municipality,56182.0,66715.0,72481.0
+NP0218303,Aurahi,Mahottari,Aurahi Municipality,,31851.0,37361.0
+NP0218304,Bhangaha,Mahottari,Bhangaha Municipality,42612.0,46832.0,55354.0
+NP0218305,Ram Gopalpur,Mahottari,Ram Gopalpur Municipality,,30412.0,36201.0
+NP0218306,Manara Shisawa,Mahottari,Manara Shisawa Municipality,44263.0,49692.0,52191.0
+NP0218307,Balawa,Mahottari,Balawa Municipality,38863.0,42368.0,49473.0
+NP0218308,Loharpatti,Mahottari,Loharpatti Municipality,36884.0,39883.0,45773.0
+NP0218309,Jaleshwor,Mahottari,Jaleshwor Municipality,51838.0,59261.0,63802.0
+NP0218310,Matihani,Mahottari,Matihani Municipality,26542.0,31026.0,36136.0
+NP0218401,Sonama,Mahottari,Sonama Gaunpalika,31925.0,38747.0,43082.0
+NP0218402,Samsi,Mahottari,Samsi Gaunpalika,29451.0,33803.0,38585.0
+NP0218403,Ekadara,Mahottari,Ekadara Gaunpalika,25195.0,29315.0,31770.0
+NP0218404,Mahottari,Mahottari,Mahottari Gaunpalika,26343.0,27430.0,28807.0
+NP0218405,Pipara,Mahottari,Pipara Gaunpalika,32874.0,35524.0,40535.0
+NP0219301,Bagmati,Sarlahi,Bagmati Municipality,,40399.0,47106.0
+NP0219302,Hariwan,Sarlahi,Hariwan Municipality,,43924.0,49988.0
+NP0219303,Lalbandi,Sarlahi,Lalbandi Municipality,51448.0,59628.0,66419.0
+NP0219304,Barahathawa,Sarlahi,Barahathawa Municipality,,69822.0,81120.0
+NP0219305,Haripur,Sarlahi,Haripur Municipality,,37445.0,43233.0
+NP0219306,Ishworpur,Sarlahi,Ishworpur Municipality,51243.0,60000.0,68377.0
+NP0219307,Kabilashi,Sarlahi,Kabilashi Municipality,34495.0,42336.0,44204.0
+NP0219308,Godaita,Sarlahi,Godaita Municipality,39130.0,47687.0,54270.0
+NP0219309,Malangawa,Sarlahi,Malangawa Municipality,36380.0,46557.0,54550.0
+NP0219310,Haripurwa,Sarlahi,Haripurwa Municipality,,36042.0,38714.0
+NP0219311,Balara,Sarlahi,Balara Municipality,,45194.0,47912.0
+NP0219401,Basbariya,Sarlahi,Basbariya Gaunpalika,18872.0,23568.0,25905.0
+NP0219402,Chandranagar,Sarlahi,Chandranagar Gaunpalika,26179.0,33345.0,36908.0
+NP0219403,Dhanakaul,Sarlahi,Dhanakaul Gaunpalika,,24788.0,27974.0
+NP0219404,Chakraghatta,Sarlahi,Chakraghatta Gaunpalika,22951.0,27952.0,29550.0
+NP0219405,Ramnagar,Sarlahi,Ramnagar Gaunpalika,,28727.0,31366.0
+NP0219406,Kaudena,Sarlahi,Kaudena Gaunpalika,21182.0,26085.0,28702.0
+NP0219407,Brahmapuri,Sarlahi,Brahmapuri Gaunpalika,24905.0,29832.0,31378.0
+NP0219408,Bishnu,Sarlahi,Bishnu Gaunpalika,,24748.0,28570.0
+NP0219409,Parsa,Sarlahi,Parsa Gaunpalika,16905.0,21650.0,24005.0
+NP0232301,Gujara,Rautahat,Gujara Municipality,41483.0,46618.0,54033.0
+NP0232302,Chandrapur,Rautahat,Chandrapur Municipality,57647.0,72085.0,81807.0
+NP0232303,Phatuwa Bijayapur,Rautahat,Phatuwa Bijayapur Municipality,24548.0,36308.0,42218.0
+NP0232304,Katahariya,Rautahat,Katahariya Municipality,29642.0,38412.0,45821.0
+NP0232305,Brindaban,Rautahat,Brindaban Municipality,32092.0,42770.0,49742.0
+NP0232306,Maulapur,Rautahat,Maulapur Municipality,20436.0,26424.0,32325.0
+NP0232307,Dewahi Gonahi,Rautahat,Dewahi Gonahi Municipality,25408.0,32143.0,38690.0
+NP0232308,Garuda,Rautahat,Garuda Municipality,38361.0,50506.0,60857.0
+NP0232309,Gadhimai,Rautahat,Gadhimai Municipality,33327.0,40410.0,49135.0
+NP0232310,Boudhimai,Rautahat,Boudhimai Municipality,26300.0,33265.0,39325.0
+NP0232311,Madhav Narayan,Rautahat,Madhav Narayan Municipality,29919.0,35175.0,40894.0
+NP0232312,Paroha,Rautahat,Paroha Municipality,29449.0,37453.0,45702.0
+NP0232313,Ishanath,Rautahat,Ishanath Municipality,34277.0,41435.0,51855.0
+NP0232314,Rajpur,Rautahat,Rajpur Municipality,32782.0,41136.0,54083.0
+NP0232315,Gaur,Rautahat,Gaur Municipality,25383.0,35370.0,39846.0
+NP0232316,Rajdevi,Rautahat,Rajdevi Municipality,,30629.0,35658.0
+NP0232401,Yamunamai,Rautahat,Yamunamai Gaunpalika,,23884.0,28414.0
+NP0232402,Durga Bhagawati,Rautahat,Durga Bhagawati Gaunpalika,19301.0,22699.0,22864.0
+NP0233201,Jitpur Simara,Bara,Jitpur Simara Sub-Metropolitian City,,118398.0,127307.0
+NP0233202,Kalaiya,Bara,Kalaiya Sub-Metropolitian City,,123575.0,136222.0
+NP0233301,Nijagadh,Bara,Nijagadh Municipality,30693.0,35403.0,37687.0
+NP0233302,Kolhabi,Bara,Kolhabi Municipality,40213.0,44082.0,51182.0
+NP0233303,Mahagadhimai,Bara,Mahagadhimai Municipality,,52396.0,59424.0
+NP0233304,Pacharauta,Bara,Pacharauta Municipality,,34194.0,40524.0
+NP0233305,Simroungadh,Bara,Simroungadh Municipality,,48570.0,54878.0
+NP0233401,Parawanipur,Bara,Parawanipur Gaunpalika,,22787.0,24745.0
+NP0233402,Prasauni,Bara,Prasauni Gaunpalika,,25049.0,25414.0
+NP0233403,Karaiyamai,Bara,Karaiyamai Gaunpalika,,26496.0,29165.0
+NP0233404,Bishrampur,Bara,Bishrampur Gaunpalika,18912.0,23814.0,24892.0
+NP0233405,Pheta,Bara,Pheta Gaunpalika,,25653.0,28395.0
+NP0233406,Baragadhi,Bara,Baragadhi Gaunpalika,,27191.0,29555.0
+NP0233407,Devtal,Bara,Devtal Gaunpalika,,23011.0,25361.0
+NP0233408,Subarna,Bara,Subarna Gaunpalika,,29537.0,35141.0
+NP0233409,Aadarsha Kotwal,Bara,Aadarsha Kotwal Gaunpalika,21590.0,27552.0,31364.0
+NP0233595,Parsa,Bara,,,,
+NP0234101,Birgunj,Parsa,Birgunj Metropolitian City,194960.0,244086.0,272382.0
+NP0234301,Pokhariya,Parsa,Pokhariya Municipality,,32885.0,37675.0
+NP0234302,Bahudarmai,Parsa,Bahudarmai Municipality,32007.0,39673.0,43478.0
+NP0234303,Parsagadhi,Parsa,Parsagadhi Municipality,31948.0,38607.0,41569.0
+NP0234401,Thori,Parsa,Thori Gaunpalika,20651.0,20397.0,17219.0
+NP0234402,Jirabhawani,Parsa,Jirabhawani Gaunpalika,19876.0,22765.0,22677.0
+NP0234403,Paterwa Sugauli,Parsa,Paterwa Sugauli Gaunpalika,19894.0,23917.0,25498.0
+NP0234404,Sakhuwa Prasauni,Parsa,Sakhuwa Prasauni Gaunpalika,28040.0,33092.0,35399.0
+NP0234405,Jagarnathpur,Parsa,Jagarnathpur Gaunpalika,,32674.0,32649.0
+NP0234406,Dhobini,Parsa,Dhobini Gaunpalika,,19911.0,22606.0
+NP0234407,Chhipaharmai,Parsa,Chhipaharmai Gaunpalika,21939.0,26684.0,29082.0
+NP0234408,Kalikamai,Parsa,Kalikamai Gaunpalika,17225.0,21141.0,23480.0
+NP0234409,Pakaha Mainpur,Parsa,Pakaha Mainpur Gaunpalika,17081.0,20717.0,22585.0
+NP0234410,Bindabasini,Parsa,Bindabasini Gaunpalika,19556.0,24468.0,24991.0
+NP0234595,Parsa,Parsa,,,,
+NP0234597,Chitawan,Parsa,,,,
+NP0320301,Kamalamai,Sindhuli,Kamalamai Municipality,58485.0,66391.0,71016.0
+NP0320302,Dudhouli,Sindhuli,Dudhouli Municipality,59545.0,65644.0,70207.0
+NP0320401,Hariharpurgaghi,Sindhuli,Hariharpurgaghi Gaunpalika,26214.0,27727.0,26505.0
+NP0320402,Marin,Sindhuli,Marin Gaunpalika,25108.0,27822.0,28808.0
+NP0320403,Ghyanglekha,Sindhuli,Ghyanglekha Gaunpalika,13781.0,13761.0,12652.0
+NP0320404,Sunkoshi,Sindhuli,Sunkoshi Gaunpalika,,21969.0,18375.0
+NP0320405,Golanjor,Sindhuli,Golanjor Gaunpalika,19184.0,19490.0,18737.0
+NP0320406,Tinpatan,Sindhuli,Tinpatan Gaunpalika,34801.0,36420.0,34889.0
+NP0320407,Phikkal,Sindhuli,Phikkal Gaunpalika,16788.0,16968.0,15910.0
+NP0321301,Manthali,Ramechhap,Manthali  Municipality,45048.0,45614.0,39695.0
+NP0321302,Ramechhap,Ramechhap,Ramechhap Municipality,30163.0,29469.0,24971.0
+NP0321401,Sunapati,Ramechhap,Sunapati Gaunpalika,,18148.0,14658.0
+NP0321402,Doramba,Ramechhap,Doramba Gaunpalika,,22773.0,17686.0
+NP0321403,Gokulganga,Ramechhap,Gokulganga Gaunpalika,20700.0,20074.0,17798.0
+NP0321404,Umakunda,Ramechhap,Umakunda Gaunpalika,17937.0,17647.0,16590.0
+NP0321405,Khandadevi,Ramechhap,Khandadevi Gaunpalika,27343.0,25786.0,19312.0
+NP0321406,Likhu Tamakoshi,Ramechhap,Likhu Tamakoshi Gaunpalika,,,18325.0
+NP0322301,Bhimeshwor,Dolakha,Bhimeshwor Municipality,33677.0,33324.0,34712.0
+NP0322302,Jiri,Dolakha,Jiri Municipality,,15837.0,16109.0
+NP0322401,Bigu,Dolakha,Bigu Gaunpalika,18536.0,18592.0,16490.0
+NP0322402,Gaurishankar,Dolakha,Gaurishankar Gaunpalika,18626.0,17140.0,15995.0
+NP0322403,Kalinchowk,Dolakha,Kalinchowk Gaunpalika,23274.0,22954.0,21097.0
+NP0322404,Baiteshwor,Dolakha,Baiteshwor Gaunpalika,21826.0,19876.0,17896.0
+NP0322405,Shailung,Dolakha,Shailung Gaunpalika,19561.0,19698.0,17923.0
+NP0322406,Melung,Dolakha,Melung Gaunpalika,18043.0,20287.0,15893.0
+NP0322407,Tamakoshi,Dolakha,Tamakoshi Gaunpalika,20214.0,18849.0,15163.0
+NP0323301,Melamchi,Sindhupalchok,Melanchi Municipality,47290.0,45473.0,41063.0
+NP0323302,Choutara Sangachowkgadhi,Sindhupalchok,Choutara Sangachowkgadhi Municipality,49159.0,47104.0,42668.0
+NP0323303,Bahrabise,Sindhupalchok,Bahrabise Municipality,,26960.0,24109.0
+NP0323401,Helambu,Sindhupalchok,Helambu Gaunpalika,19571.0,17964.0,17497.0
+NP0323402,Panchpokhari Thangpal,Sindhupalchok,Panchpokhari Thangpal Gaunpalika,22127.0,20986.0,20997.0
+NP0323403,Jugal,Sindhupalchok,Jugal Gaunpalika,19837.0,19231.0,18303.0
+NP0323404,Bhotekoshi,Sindhupalchok,Bhotekoshi Gaunpalika,15176.0,16772.0,14318.0
+NP0323405,Indrawoti,Sindhupalchok,Indrawoti Gaunpalika,31177.0,28544.0,25365.0
+NP0323406,Balephi,Sindhupalchok,Balephi Gaunpalika,20191.0,19084.0,17085.0
+NP0323407,Sunkoshi,Sindhupalchok,Sunkoshi Gaunpalika,20294.0,17311.0,15176.0
+NP0323408,Tripurasundari,Sindhupalchok,Tripurasundari Gaunpalika,,13225.0,12014.0
+NP0323409,Lisankhu Pakhar,Sindhupalchok,Lisankhu Pakhar Gaunpalika,12656.0,15144.0,11750.0
+NP0324301,Mandan Deupur,Kavrepalanchok,Mandan Deupur Municipality,,32768.0,30381.0
+NP0324302,Banepa,Kavrepalanchok,Banepa Municipality,,57722.0,67690.0
+NP0324303,Dhulikhel,Kavrepalanchok,Dhulikhel Municipality,,33981.0,33726.0
+NP0324304,Panchkhal,Kavrepalanchok,Panchkhal Municipality,,39788.0,35521.0
+NP0324305,Panauti,Kavrepalanchok,Panauti Municipality,,47549.0,51504.0
+NP0324306,Namobuddha,Kavrepalanchok,Namobuddha Municipality,32489.0,29926.0,26160.0
+NP0324401,Bhumlu,Kavrepalanchok,Bhumlu Gaunpalika,,19298.0,15678.0
+NP0324402,Chauri Deurali,Kavrepalanchok,Chauri Deurali Gaunpalika,27113.0,21130.0,14076.0
+NP0324403,Bethanchowk,Kavrepalanchok,Bethanchowk Gaunpalika,,15622.0,14959.0
+NP0324404,Roshi,Kavrepalanchok,Roshi Gaunpalika,30180.0,28760.0,23790.0
+NP0324405,Temal,Kavrepalanchok,Temal Gaunpalika,26362.0,22712.0,16957.0
+NP0324406,Khanikhola,Kavrepalanchok,Khanikhola Gaunpalika,14190.0,14398.0,12201.0
+NP0324407,Mahabharat,Kavrepalanchok,Mahabharat Gaunpalika,18097.0,18283.0,16079.0
+NP0325101,Lalitpur,Lalitpur,Lalitpur Metropolitian City,200020.0,292848.0,294098.0
+NP0325301,Godawari,Lalitpur,Godawari Municipality,66240.0,80376.0,97633.0
+NP0325302,Mahalaxmi,Lalitpur,Mahalaxmi Municipality,35802.0,62624.0,123116.0
+NP0325401,Bagmati,Lalitpur,Bagmati Gaunpalika,14155.0,13049.0,11353.0
+NP0325402,Konjyosom,Lalitpur,Konjyosom Gaunpalika,9871.0,9709.0,8989.0
+NP0325403,Mahankal,Lalitpur,Mahankal Gaunpalika,10539.0,9526.0,8122.0
+NP0326301,Madhyapur Thimi,Bhaktapur,Madhyapur Thimi Municipality,47751.0,84142.0,119756.0
+NP0326302,Changunarayan,Bhaktapur,Changunarayan Municipality,,58006.0,88083.0
+NP0326303,Bhaktapur,Bhaktapur,Bhaktapur Municipality,72543.0,83658.0,79136.0
+NP0326304,Suryabinayak,Bhaktapur,Suryabinayak Municipality,55744.0,78845.0,140085.0
+NP0327101,Kathmandu,Kathmandu,Kathmandu Metropolitian City,671846.0,1003285.0,862400.0
+NP0327301,Tarakeshwor,Kathmandu,Tarakeshwor Municipality,37268.0,82060.0,151479.0
+NP0327302,Tokha,Kathmandu,Tokha Municipality,42308.0,100780.0,133755.0
+NP0327303,Budhanilkhantha,Kathmandu,Budhanilkhantha Municipality,,112281.0,177557.0
+NP0327304,Gokarneshwor,Kathmandu,Gokarneshwor Municipality,57698.0,110452.0,149366.0
+NP0327305,Nagarjun,Kathmandu,Nagarjun Municipality,33055.0,68863.0,115437.0
+NP0327306,Kageshwori Manahara,Kathmandu,Kageshwori Manahara Municipality,32077.0,60553.0,130433.0
+NP0327307,Shankharapur,Kathmandu,Shankharapur Municipality,24260.0,25558.0,29318.0
+NP0327308,Chandragiri,Kathmandu,Chandragiri Municipality,55032.0,87553.0,136860.0
+NP0327309,Kirtipur,Kathmandu,Kirtipur Municipality,40835.0,67171.0,81578.0
+NP0327310,Dakshinkali,Kathmandu,Dakshinkali Municipality,,25684.0,26372.0
+NP0328301,Bidur,Nuwakot,Bidur Municipality,,55650.0,59227.0
+NP0328302,Belkotgadhi,Nuwakot,Belkotgadhi Municipality,,40706.0,35224.0
+NP0328401,Myagang,Nuwakot,Myagang Gaunpalika,15194.0,13484.0,12668.0
+NP0328402,Kispang,Nuwakot,Kispang Gaunpalika,15578.0,14861.0,14235.0
+NP0328403,Tarakeshwor,Nuwakot,Tarakeshwor Gaunpalika,,15719.0,14184.0
+NP0328404,Suryagadhi,Nuwakot,Suryagadhi Gaunpalika,17328.0,16800.0,14919.0
+NP0328405,Tadi,Nuwakot,Tadi Gaunpalika,18785.0,17942.0,15933.0
+NP0328406,Likhu,Nuwakot,Likhu Gaunpalika,,16966.0,17728.0
+NP0328407,Panchakanya,Nuwakot,Panchakanya Gaunpalika,,15945.0,13818.0
+NP0328408,Dupcheshwor,Nuwakot,Dupcheshwor Gaunpalika,21110.0,22106.0,21005.0
+NP0328409,Kakani,Nuwakot,Kakani Gaunpalika,,26509.0,24504.0
+NP0328410,Shivapuri,Nuwakot,Shivapuri Gaunpalika,25119.0,20783.0,17203.0
+NP0328596,Shivapuri,Nuwakot,Shivapuri Gaunpalika,25119.0,20783.0,17203.0
+NP0328597,Langtang,Nuwakot,,,,
+NP0329401,Aamachhodingmo,Rasuwa,Aamachhodingmo Gaunpalika,,5533.0,6673.0
+NP0329402,Gosaikunda,Rasuwa,Gosaikunda Gaunpalika,,8134.0,7788.0
+NP0329403,Uttargaya,Rasuwa,Uttargaya Gaunpalika,,8298.0,8555.0
+NP0329404,Kalika,Rasuwa,Kalika Gaunpalika,,9502.0,10115.0
+NP0329405,Naukunda,Rasuwa,Naukunda Gaunpalika,,11833.0,12344.0
+NP0330301,Nilkhantha,Dhading,Nilkhantha Municipality,55696.0,58876.0,58828.0
+NP0330302,Dhunibenshi,Dhading,Dhunibenshi Municipality,31029.0,31029.0,29149.0
+NP0330401,Rubi Valley,Dhading,Rubi Valley Gaunpalika,10376.0,9562.0,10781.0
+NP0330402,Ganga Jamuna,Dhading,Ganga Jamuna Gaunpalika,25591.0,21784.0,19265.0
+NP0330403,Khaniyabas,Dhading,Khaniyabas Gaunpalika,13530.0,12749.0,10287.0
+NP0330404,Tripurasundari,Dhading,Tripurasundari Gaunpalika,25096.0,22992.0,21937.0
+NP0330405,Netrawati Dabjong,Dhading,Netrawati Dabjong Gaunpalika,15699.0,12870.0,11310.0
+NP0330406,Jwalamukhi,Dhading,Jwalamukhi Gaunpalika,26225.0,23966.0,21338.0
+NP0330407,Siddhalek,Dhading,Siddhalek Gaunpalika,24594.0,23729.0,22214.0
+NP0330408,Benighat Rorang,Dhading,Benighat Rorang Gaunpalika,27699.0,31475.0,33854.0
+NP0330409,Gajuri,Dhading,Gajuri Gaunpalika,,27841.0,28634.0
+NP0330410,Galchhi,Dhading,Galchhi Gaunpalika,,26215.0,23733.0
+NP0330411,Thakre,Dhading,Thakre Gaunpalika,,32979.0,32374.0
+NP0331201,Hetauda,Makwanpur,Hetauda Sub-Metropolitian City,129872.0,154660.0,193576.0
+NP0331301,Thaha,Makwanpur,Thaha Municipality,42230.0,42122.0,38870.0
+NP0331401,Manahari,Makwanpur,Manahari Gaunpalika,,39122.0,47353.0
+NP0331402,Raksirang,Makwanpur,Raksirang Gaunpalika,25675.0,26192.0,25996.0
+NP0331403,Kailash,Makwanpur,Kailash Gaunpalika,,23922.0,21856.0
+NP0331404,Bhimphedi,Makwanpur,Bhimphedi Gaunpalika,,24960.0,21516.0
+NP0331405,Indrasarowar,Makwanpur,Indrasarowar Gaunpalika,15325.0,13891.0,13534.0
+NP0331406,Makawanpurgadhi,Makwanpur,Makawanpurgadhi Gaunpalika,26959.0,25379.0,24461.0
+NP0331407,Bakaiya,Makwanpur,Bakaiya Gaunpalika,39846.0,39642.0,40907.0
+NP0331408,Bagmati,Makwanpur,Bagmati Gaunpalika,30677.0,30587.0,30425.0
+NP0331595,Parsa,Makwanpur,,,,
+NP0331597,Chitawan,Makwanpur,,,,
+NP0335101,Bharatpur,Chitawan,Bharatpur Metropolitian City,210593.0,285167.0,369268.0
+NP0335301,Kalika,Chitawan,Kalika Municipality,,44898.0,52164.0
+NP0335302,Ratnanagar,Chitawan,Ratnanagar Municipality,58824.0,70226.0,89905.0
+NP0335303,Khairahani,Chitawan,Khairahani Municipality,50372.0,56925.0,67385.0
+NP0335304,Rapti,Chitawan,Rapti Municipality,,59937.0,66617.0
+NP0335305,Madi,Chitawan,Madi Municipality,41344.0,37764.0,38295.0
+NP0335401,Ichchha Kamana,Chitawan,Ichchha Kamana Gaunpalika,21924.0,25067.0,27643.0
+NP0335597,Chitawan,Chitawan,,,,
+NP0436301,Palungtar,Gorkha,Palungtar Municipality,42117.0,38244.0,37409.0
+NP0436302,Gorkha,Gorkha,Gorkha Municipality,44433.0,50684.0,52468.0
+NP0436401,Chumanubri,Gorkha,Chumanubri Gaunpalika,,7417.0,5932.0
+NP0436402,Ajirkot,Gorkha,Ajirkot Gaunpalika,17737.0,15602.0,12832.0
+NP0436403,Barpak Sulikot,Gorkha,Barpak Sulikot Gaunpalika,27415.0,25399.0,22636.0
+NP0436404,Dharche,Gorkha,Dharche Gaunpalika,13553.0,13264.0,14263.0
+NP0436405,Siranchowk,Gorkha,Siranchowk Gaunpalika,28010.0,23666.0,19719.0
+NP0436406,Aarughat,Gorkha,Aarughat Gaunpalika,24337.0,23915.0,21572.0
+NP0436407,Bhimsenthapa,Gorkha,Bhimsenthapa Gaunpalika,24885.0,22053.0,16986.0
+NP0436408,Shahid Lakhan,Gorkha,Shahid Lakhan Gaunpalika,31649.0,27555.0,23076.0
+NP0436409,Gandaki,Gorkha,Gandaki Gaunpalika,25122.0,23262.0,21394.0
+NP0437301,Madhya Nepal,Lamjung,Madhya Nepal Municipality,25675.0,23474.0,21971.0
+NP0437302,Bensishahar,Lamjung,Bensishahar Municipality,,40599.0,38232.0
+NP0437303,Sundarbazar,Lamjung,Sundarbazar Municipality,26890.0,27019.0,27043.0
+NP0437304,Rainas,Lamjung,Rainas Municipality,20161.0,18527.0,17402.0
+NP0437401,Kwhola Sothar,Lamjung,Kwhola Sothar Gaunpalika,,10067.0,7960.0
+NP0437402,Marshyangdi,Lamjung,Marshyangdi Gaunpalika,20475.0,18811.0,17080.0
+NP0437403,Dordi,Lamjung,Dordi Gaunpalika,,18252.0,16050.0
+NP0437404,Dudhapokhari,Lamjung,Dudhapokhari Gaunpalika,13814.0,10975.0,8592.0
+NP0438401,Ngisyang,Manang,Manang Ngisyang Gaunpalika,,,1595.0
+NP0438402,Narpa Bhumi,Manang,Narpa Bhumi Gaunpalika,,554.0,396.0
+NP0438403,Chame,Manang,Chame Gaunpalika,,1476.0,1276.0
+NP0438404,Nason,Manang,Nason Gaunpalika,,2094.0,1671.0
+NP0439101,Pokhara,Kaski,Pokhara Metropolitian City,283137.0,413934.0,513504.0
+NP0439401,Annapurna,Kaski,Annapurna Gaunpalika,,23565.0,22099.0
+NP0439402,Machhapuchchhre,Kaski,Machhapuchchhre Gaunpalika,24765.0,21920.0,22898.0
+NP0439403,Madi,Kaski,Madi Gaunpalika,,18153.0,16142.0
+NP0439404,Rupa,Kaski,Rupa Gaunpalika,,14526.0,14891.0
+NP0440301,Shuklagandaki,Tanahu,Shuklagandaki Municipality,,49611.0,55620.0
+NP0440302,Byas,Tanahu,Byas Municipality,,71051.0,78939.0
+NP0440303,Bhanu,Tanahu,Bhanu Municipality,,46179.0,42794.0
+NP0440304,Bhimad,Tanahu,Bhimad Municipality,,31362.0,29248.0
+NP0440401,Myagde,Tanahu,Myagde Gaunpalika,23370.0,22502.0,23578.0
+NP0440402,Ghiring,Tanahu,Ghiring Gaunpalika,,19318.0,14334.0
+NP0440403,Rhishing,Tanahu,Rhishing Gaunpalika,,25870.0,17918.0
+NP0440404,Bandipur,Tanahu,Bandipur Gaunpalika,,20077.0,18532.0
+NP0440405,Aanbu Khaireni,Tanahu,Aanbu Khaireni Gaunpalika,18489.0,20840.0,22252.0
+NP0440406,Devghat,Tanahu,Devghat Gaunpalika,,16478.0,14584.0
+NP0441301,Putalibazar,Syangja,Putalibazar Municipality,,45510.0,41743.0
+NP0441302,Bhirkot,Syangja,Bhirkot Municipality,,25584.0,22645.0
+NP0441303,Galyang,Syangja,Galyang Municipality,,37821.0,31034.0
+NP0441304,Walling,Syangja,Walling Municipality,,51437.0,50488.0
+NP0441305,Chapakot,Syangja,Chapakot Municipality,29400.0,26101.0,22969.0
+NP0441401,Aandhikhola,Syangja,Aandhikhola Gaunpalika,,16595.0,13094.0
+NP0441402,Phedikhola,Syangja,Phedikhola Gaunpalika,13885.0,12341.0,10899.0
+NP0441403,Arjun Choupari,Syangja,Arjun Choupari Gaunpalika,,16179.0,14045.0
+NP0441404,Biruwa,Syangja,Biruwa Gaunpalika,,18413.0,14001.0
+NP0441405,Harinas,Syangja,Harinas Gaunpalika,,17343.0,13191.0
+NP0441406,Kaligandaki,Syangja,Kaligandaki Gaunpalika,26598.0,21824.0,17955.0
+NP0442301,Kushma,Parbat,Kushma Municipality,38475.0,40374.0,38101.0
+NP0442302,Phalebas,Parbat,Phalebas Municipality,,24729.0,20468.0
+NP0442401,Jaljala,Parbat,Jaljala Gaunpalika,21547.0,21527.0,21119.0
+NP0442402,Modi,Parbat,Modi Gaunpalika,24274.0,21312.0,18794.0
+NP0442403,Bihadi,Parbat,Bihadi Gaunpalika,15377.0,13409.0,10828.0
+NP0442404,Mahashila,Parbat,Mahashila Gaunpalika,,9858.0,8116.0
+NP0442405,Paiyu,Parbat,Paiyu Gaunpalika,17073.0,15381.0,12725.0
+NP0443301,Dhorpatan,Baglung,Dhorpatan Municipality,,26438.0,30068.0
+NP0443302,Galkot,Baglung,Galkot Municipality,35893.0,33330.0,30588.0
+NP0443303,Baglung,Baglung,Baglung Municipality,,59192.0,56102.0
+NP0443304,Jaimuni,Baglung,Jaimuni Municipality,36392.0,32069.0,24628.0
+NP0443401,Nisikhola,Baglung,Nisikhola Gaunpalika,,23325.0,23119.0
+NP0443402,Tamankhola,Baglung,Tamankhola Gaunpalika,11103.0,10659.0,9982.0
+NP0443403,Badigad,Baglung,Badigad Gaunpalika,29618.0,30906.0,28839.0
+NP0443404,Tarakhola,Baglung,Tarakhola Gaunpalika,12754.0,12009.0,10120.0
+NP0443405,Kathekhola,Baglung,Kathekhola Gaunpalika,,26174.0,22526.0
+NP0443406,Bareng,Baglung,Bareng Gaunpalika,16678.0,14511.0,11158.0
+NP0443598,Dhorpatan,Baglung,Dhorpatan Municipality,,26438.0,30068.0
+NP0444301,Beni,Myagdi,Beni Municipality,,34878.0,32697.0
+NP0444401,Dhawalagiri,Myagdi,Dhawalagiri Gaunpalika,14754.0,14112.0,12616.0
+NP0444402,Raghuganga,Myagdi,Raghuganga Gaunpalika,17984.0,15772.0,14114.0
+NP0444403,Annapurna,Myagdi,Annapurna Gaunpalika,,13337.0,12323.0
+NP0444404,Malika,Myagdi,Malika Gaunpalika,,19208.0,18332.0
+NP0444405,Mangala,Myagdi,Mangala Gaunpalika,,16334.0,14688.0
+NP0444598,Dhorpatan,Myagdi,,,,
+NP0445401,Lomanthang,Mustang,Lomanthang Gaunpalika,,2350.0,1430.0
+NP0445402,Lo Ghekar Damodarkunda,Mustang,Lo Ghekar Damodarkunda Gaunpalika,,1569.0,1292.0
+NP0445403,Varagung Muktichhetra,Mustang,Varagung Muktichhetra Gaunpalika,,2704.0,2036.0
+NP0445404,Gharpajhong,Mustang,Gharpajhong Gaunpalika,,3736.0,3712.0
+NP0445405,Thasang,Mustang,Thasang Gaunpalika,,3093.0,2856.0
+NP0447301,Madhya Bindu,Nawalparasi East,Madhya Bindu Municipality,,54424.0,61091.0
+NP0447302,Kawasoti,Nawalparasi East,Kawasoti Municipality,51413.0,62583.0,86821.0
+NP0447303,Devchuli,Nawalparasi East,Devchuli Municipality,36301.0,42667.0,58003.0
+NP0447304,Gaidakot,Nawalparasi East,Gaidakot Municipality,43060.0,58890.0,79349.0
+NP0447401,Baudikali,Nawalparasi East,Baudikali Gaunpalika,,15734.0,11338.0
+NP0447402,Bulingtar,Nawalparasi East,Bulingtar Gaunpalika,,19122.0,14637.0
+NP0447403,Hupsekot,Nawalparasi East,Hupsekot Gaunpalika,22378.0,25065.0,26583.0
+NP0447404,Binayi Tribeni,Nawalparasi East,Binayi Tribeni Gaunpalika,,33119.0,38370.0
+NP0447597,Chitawan,Nawalparasi East,,,,
+NP0546301,Tansen,Palpa,Tansen Municipality,,52538.0,50792.0
+NP0546302,Rampur,Palpa,Rampur Municipality,33480.0,35504.0,40883.0
+NP0546401,Rainadevi Chhahara,Palpa,Rainadevi Chhahara Gaunpalika,28629.0,26469.0,23149.0
+NP0546402,Tinau,Palpa,Tinau Gaunpalika,19163.0,19130.0,17777.0
+NP0546403,Ribdikot,Palpa,Ribdikot Gaunpalika,21678.0,18770.0,15473.0
+NP0546404,Mathagadhi,Palpa,Mathagadhi Gaunpalika,25999.0,25017.0,24053.0
+NP0546405,Baganaskali,Palpa,Baganaskali Gaunpalika,,21361.0,18497.0
+NP0546406,Purbakhola,Palpa,Purbakhola Gaunpalika,,19590.0,16052.0
+NP0546407,Rambha,Palpa,Rambha Gaunpalika,,20190.0,17155.0
+NP0546408,Nisdi,Palpa,Nisdi Gaunpalika,23912.0,22611.0,18120.0
+NP0547301,Sunawal,Nawalparasi West,Sunawal Municipality,,56423.0,72085.0
+NP0547302,Bardaghat,Nawalparasi West,Bardaghat Municipality,55476.0,61675.0,76703.0
+NP0547303,Ramgram,Nawalparasi West,Ramgram Municipality,,59828.0,64017.0
+NP0547401,Palhinandan,Nawalparasi West,Palhinandan Gaunpalika,,35429.0,38186.0
+NP0547402,Sarawal,Nawalparasi West,Sarawal Gaunpalika,33647.0,37418.0,42207.0
+NP0547403,Pratapapur,Nawalparasi West,Pratapapur Gaunpalika,,45241.0,49897.0
+NP0547404,Susta,Nawalparasi West,Susta Gaunpalika,,35890.0,40655.0
+NP0548201,Butwal,Rupandehi,Butwal Sub-Metropolitian City,91252.0,141262.0,194335.0
+NP0548301,Sainamaina,Rupandehi,Sainamaina Municipality,44591.0,57077.0,78393.0
+NP0548302,Devdaha,Rupandehi,Devdaha Municipality,44639.0,53636.0,72457.0
+NP0548303,Tilottama,Rupandehi,Tilottama Municipality,,100438.0,149479.0
+NP0548304,Lumbini Sanskritik,Rupandehi,Lumbini Sanskritik Municipality,61155.0,72647.0,87383.0
+NP0548305,Siddharthanagar,Rupandehi,Siddharthanagar Municipality,52569.0,64566.0,74436.0
+NP0548401,Kanchan,Rupandehi,Kanchan Gaunpalika,30434.0,33082.0,42528.0
+NP0548402,Suddhodhan,Rupandehi,Suddhodhan Gaunpalika,29902.0,34638.0,41907.0
+NP0548403,Gaidahawa,Rupandehi,Gaidahawa Gaunpalika,40870.0,47624.0,56149.0
+NP0548404,Siyari,Rupandehi,Siyari Gaunpalika,33258.0,38507.0,44985.0
+NP0548405,Mayadevi,Rupandehi,Mayadevi Gaunpalika,38647.0,47174.0,56170.0
+NP0548406,Om Satiya,Rupandehi,Om Satiya Gaunpalika,,34226.0,41141.0
+NP0548407,Rohini,Rupandehi,Rohini Gaunpalika,33399.0,37217.0,43327.0
+NP0548408,Kotahimai,Rupandehi,Kotahimai Gaunpalika,34859.0,41006.0,45975.0
+NP0548409,Sammarimai,Rupandehi,Sammarimai Gaunpalika,32141.0,38313.0,43044.0
+NP0548410,Marchawari,Rupandehi,Marchawari Gaunpalika,31770.0,38783.0,40880.0
+NP0548599,Lumbini Sanskritik,Rupandehi,Lumbini Sanskritik Municipality,61155.0,72647.0,87383.0
+NP0549301,Shivaraj,Kapilbastu,Shivaraj Municipality,50886.0,67162.0,84810.0
+NP0549302,Buddhabhumi,Kapilbastu,Buddhabhumi Municipality,54590.0,65458.0,76507.0
+NP0549303,Banganga,Kapilbastu,Banganga Municipality,63449.0,75354.0,96714.0
+NP0549304,Krishnanagar,Kapilbastu,Krishnanagar Municipality,52748.0,62422.0,70111.0
+NP0549305,Maharajganj,Kapilbastu,Maharajganj Municipality,46590.0,54901.0,64645.0
+NP0549306,Kapilbastu,Kapilbastu,Kapilbastu Municipality,68059.0,76894.0,88874.0
+NP0549401,Bijayanagar,Kapilbastu,Bijayanagar Gaunpalika,32060.0,37013.0,43291.0
+NP0549402,Yasodhara,Kapilbastu,Yasodhara Gaunpalika,33540.0,38952.0,44900.0
+NP0549403,Mayadevi,Kapilbastu,Mayadevi Gaunpalika,40894.0,48479.0,55972.0
+NP0549404,Shuddhodhan,Kapilbastu,Shuddhodhan Gaunpalika,38468.0,45301.0,52861.0
+NP0550301,Bhumikasthan,Arghakhanchi,Bhumikasthan Municipality,35250.0,32640.0,28192.0
+NP0550302,Sandhikharka,Arghakhanchi,Sandhikharka Municipality,,41772.0,42492.0
+NP0550303,Shitaganga,Arghakhanchi,Shitaganga Municipality,44679.0,43401.0,37691.0
+NP0550401,Malarani,Arghakhanchi,Malarani Gaunpalika,,28044.0,24150.0
+NP0550402,Chhatradev,Arghakhanchi,Chhatradev Gaunpalika,,25343.0,21611.0
+NP0550403,Panini,Arghakhanchi,Panini Gaunpalika,,26432.0,22291.0
+NP0551301,Musikot,Gulmi,Musikot Municipality,,33000.0,28454.0
+NP0551302,Resunga,Gulmi,Resunga Municipality,,33225.0,31551.0
+NP0551401,Madane,Gulmi,Madane Gaunpalika,21949.0,21948.0,20022.0
+NP0551402,Malika,Gulmi,Malika Gaunpalika,,21729.0,20075.0
+NP0551403,Dhurkot,Gulmi,Dhurkot Gaunpalika,,22468.0,18814.0
+NP0551404,Isma,Gulmi,Isma Gaunpalika,21925.0,21030.0,18529.0
+NP0551405,Gulmi Durbar,Gulmi,Gulmi Durbar Gaunpalika,24373.0,22047.0,19296.0
+NP0551406,Chandrakot,Gulmi,Chandrakot Gaunpalika,24502.0,21907.0,18662.0
+NP0551407,Chhatrakot,Gulmi,Chhatrakot Gaunpalika,23461.0,21504.0,19357.0
+NP0551408,Ruruchhetra,Gulmi,Ruruchhetra Gaunpalika,,,16597.0
+NP0551409,Satyawoti,Gulmi,Satyawoti Gaunpalika,26932.0,23807.0,19473.0
+NP0551410,Kali Gandaki,Gulmi,Kali Gandaki Gaunpalika,22140.0,18885.0,15044.0
+NP0552401,Sisne,Rukum East,Sisne Gaunpalika,,16544.0,18534.0
+NP0552402,Putha Uttanganga,Rukum East,Putha Uttanganga Gaunpalika,16842.0,17999.0,18308.0
+NP0552403,Bhoome,Rukum East,Bhoome Gaunpalika,,18641.0,19829.0
+NP0552598,Dhorpatan,Rukum East,,,,
+NP0554301,Rolpa,Rolpa,Rolpa Municipality,,34347.0,35376.0
+NP0554401,Gangadev,Rolpa,Gangadev Gaunpalika,,20009.0,21503.0
+NP0554402,Pariwartan,Rolpa,Pariwartan Gaunpalika,20123.0,20778.0,21671.0
+NP0554403,Thawang,Rolpa,Thawang Gaunpalika,10728.0,10881.0,10851.0
+NP0554404,Madi,Rolpa,Madi Gaunpalika,,17986.0,18056.0
+NP0554405,Sunchhahari,Rolpa,Sunchhahari Gaunpalika,,16034.0,17241.0
+NP0554406,Tribeni,Rolpa,Tribeni Gaunpalika,,24110.0,23412.0
+NP0554407,Sunil Smriti,Rolpa,Sunil Smriti Gaunpalika,,28213.0,30617.0
+NP0554408,Lungri,Rolpa,Lungri Gaunpalika,20997.0,23631.0,26325.0
+NP0554409,Runtigadhi,Rolpa,Runtigadhi Gaunpalika,,28517.0,28291.0
+NP0555301,Sworgadwari,Pyuthan,Sworgadwari Municipality,28697.0,31187.0,32037.0
+NP0555302,Pyuthan,Pyuthan,Pyuthan Municipality,,39460.0,42130.0
+NP0555401,Naubahini,Pyuthan,Naubahini Gaunpalika,26026.0,30310.0,32682.0
+NP0555402,Gaumukhi,Pyuthan,Gaumukhi Gaunpalika,,25421.0,25980.0
+NP0555403,Jhimaruk,Pyuthan,Jhimaruk Gaunpalika,,27931.0,26130.0
+NP0555404,Mandavi,Pyuthan,Mandavi Gaunpalika,,15058.0,15863.0
+NP0555405,Mallarani,Pyuthan,Mallarani Gaunpalika,,17686.0,15646.0
+NP0555406,Sarumarani,Pyuthan,Sarumarani Gaunpalika,,18657.0,19783.0
+NP0555407,Aairawati,Pyuthan,Aairawati Gaunpalika,,22392.0,20428.0
+NP0556201,Tulsipur,Dang,Tulsipur Sub-Metropolitian City,115759.0,142869.0,179755.0
+NP0556202,Ghorahi,Dang,Ghorahi Sub-Metropolitian City,125119.0,158628.0,200530.0
+NP0556301,Lamahi,Dang,Lamahi Municipality,38632.0,48012.0,59050.0
+NP0556401,Babai,Dang,Babai Gaunpalika,23670.0,27469.0,30968.0
+NP0556402,Dangisharan,Dang,Dangisharan Gaunpalika,21003.0,21484.0,23668.0
+NP0556403,Shantinagar,Dang,Shantinagar Gaunpalika,24716.0,25203.0,27641.0
+NP0556404,Rajpur,Dang,Rajpur Gaunpalika,21564.0,25061.0,28346.0
+NP0556405,Bangalachuli,Dang,Bangalachuli Gaunpalika,,24245.0,22373.0
+NP0556406,Gadhawa,Dang,Gadhawa Gaunpalika,34724.0,38663.0,45898.0
+NP0556407,Rapti,Dang,Rapti Gaunpalika,,40949.0,52123.0
+NP0557201,Nepalganj,Banke,Nepalganj Sub-Metropolitian City,,141241.0,164444.0
+NP0557301,Kohalpur,Banke,Kohalpur Municipality,41999.0,72748.0,101667.0
+NP0557401,Khajura,Banke,Khajura Gaunpalika,45605.0,50990.0,62789.0
+NP0557402,Baijanath,Banke,Baijanath Gaunpalika,45481.0,54987.0,69472.0
+NP0557403,Janaki,Banke,Janaki Gaunpalika,31447.0,37847.0,46141.0
+NP0557404,Duduwa,Banke,Duduwa Gaunpalika,,37533.0,43135.0
+NP0557405,Rapti Sonari,Banke,Rapti Sonari Gaunpalika,53009.0,60925.0,66445.0
+NP0557406,Narainapur,Banke,Narainapur Gaunpalika,30130.0,35042.0,43206.0
+NP0558301,Rajapur,Bardiya,Rajapur Municipality,58820.0,59818.0,60831.0
+NP0558302,Madhuwan,Bardiya,Madhuwan Municipality,42606.0,46682.0,50739.0
+NP0558303,Thakurbaba,Bardiya,Thakurbaba Municipality,38601.0,45173.0,49420.0
+NP0558304,Gulariya,Bardiya,Gulariya Municipality,56532.0,68164.0,74505.0
+NP0558305,Barbardiya,Bardiya,Barbardiya Municipality,59737.0,68031.0,72533.0
+NP0558306,Bansgadhi,Bardiya,Bansgadhi Municipality,48617.0,55875.0,63252.0
+NP0558401,Geruwa,Bardiya,Geruwa Gaunpalika,34088.0,34885.0,33514.0
+NP0558402,Badhaiyatal,Bardiya,Badhaiyatal Gaunpalika,42892.0,47948.0,52818.0
+NP0558597,Bardiya,Bardiya,,,,
+NP0652301,Aathabisakot,Rukum West,Aathabisakot Municipality,,33624.0,35917.0
+NP0652302,Chaurjahari,Rukum West,Chaurjahari Municipality,,27583.0,28956.0
+NP0652303,Musikot,Rukum West,Musikot Municipality,,33882.0,34270.0
+NP0652401,Sanibheri,Rukum West,Sanibheri Gaunpalika,,22194.0,24759.0
+NP0652402,Banphikot,Rukum West,Banphikot Gaunpalika,,18696.0,21033.0
+NP0652403,Tribeni,Rukum West,Tribeni Gaunpalika,,19404.0,20525.0
+NP0653301,Banagad Kupinde,Salyan,Banagad Kupinde Municipality,,36135.0,32940.0
+NP0653302,Bagachour,Salyan,Bagachour Municipality,20235.0,34143.0,34021.0
+NP0653303,Sharada,Salyan,Sharada Municipality,29411.0,34242.0,34663.0
+NP0653401,Kumakh,Salyan,Kumakh Gaunpalika,22101.0,24988.0,24859.0
+NP0653402,Darma,Salyan,Darma Gaunpalika,,19966.0,20139.0
+NP0653403,Siddha Kumakh,Salyan,Siddha Kumakh Gaunpalika,10082.0,13593.0,13127.0
+NP0653404,Kalimati,Salyan,Kalimati Gaunpalika,14790.0,23005.0,22206.0
+NP0653405,Chhatreshwori,Salyan,Chhatreshwori Gaunpalika,10985.0,21452.0,21242.0
+NP0653406,Tribeni,Salyan,Tribeni Gaunpalika,13211.0,16647.0,16664.0
+NP0653407,Kapurkot,Salyan,Kapurkot Gaunpalika,16698.0,18273.0,17526.0
+NP0659301,Panchapuri,Surkhet,Panchapuri Municipality,26911.0,32236.0,35839.0
+NP0659302,Bheriganga,Surkhet,Bheriganga Municipality,,41865.0,48203.0
+NP0659303,Birendranagar,Surkhet,Birendranagar Municipality,67649.0,105107.0,153863.0
+NP0659304,Lekabeshi,Surkhet,Lekabeshi Municipality,,31583.0,31710.0
+NP0659305,Gurbhakot,Surkhet,Gurbhakot Municipality,39484.0,44359.0,48216.0
+NP0659401,Chaukune,Surkhet,Chaukune Gaunpalika,23072.0,25240.0,26950.0
+NP0659402,Barahatal,Surkhet,Barahatal Gaunpalika,24303.0,26820.0,25943.0
+NP0659403,Chingad,Surkhet,Chingad Gaunpalika,15633.0,17275.0,15600.0
+NP0659404,Simta,Surkhet,Simta Gaunpalika,,26319.0,24083.0
+NP0660301,Chhedagad,Jajarkot,Chhedagad Municipality,,35295.0,37877.0
+NP0660302,Bheri Malika,Jajarkot,Bheri Malika Municipality,,34713.0,37892.0
+NP0660303,Nalgad,Jajarkot,Nalgad Municipality,,,28922.0
+NP0660401,Junichande,Jajarkot,Junichande Gaunpalika,16344.0,21733.0,23771.0
+NP0660402,Kuse,Jajarkot,Kuse Gaunpalika,,20621.0,23058.0
+NP0660403,Barekot,Jajarkot,Barekot Gaunpalika,13929.0,18083.0,22005.0
+NP0660404,Shivalaya,Jajarkot,Shivalaya Gaunpalika,12764.0,15269.0,14776.0
+NP0661301,Aathbis,Dailekh,Aathbis Municipality,22169.0,29257.0,31092.0
+NP0661302,Chamunda Bindrasaini,Dailekh,Chamunda Bindrasaini Municipality,20801.0,26149.0,26559.0
+NP0661303,Dullu,Dailekh,Dullu Municipality,,41540.0,39143.0
+NP0661304,Narayan,Dailekh,Narayan Municipality,,27922.0,26111.0
+NP0661401,Thantikandh,Dailekh,Thantikandh Gaunpalika,14801.0,18896.0,18301.0
+NP0661402,Bhairabi,Dailekh,Bhairabi Gaunpalika,,21233.0,18767.0
+NP0661403,Mahabu,Dailekh,Mahabu Gaunpalika,,19277.0,18059.0
+NP0661404,Naumule,Dailekh,Naumule Gaunpalika,19704.0,20802.0,19687.0
+NP0661405,Gurans,Dailekh,Gurans Gaunpalika,19781.0,22033.0,21189.0
+NP0661406,Dungeshwor,Dailekh,Dungeshwor Gaunpalika,15424.0,15883.0,14533.0
+NP0661407,Bhagawatimai,Dailekh,Bhagawatimai Gaunpalika,15887.0,18778.0,18206.0
+NP0662301,Tripurasundari,Dolpa,Tripurasundari Municipality,,10615.0,12233.0
+NP0662302,Thulibheri,Dolpa,Thulibheri Municipality,,8571.0,9861.0
+NP0662401,Shey Phoksundo,Dolpa,Shey Phoksundo Gaunpalika,,3136.0,3635.0
+NP0662402,Jagadulla,Dolpa,Jagadulla Gaunpalika,,2322.0,2575.0
+NP0662403,Dolpo Buddha,Dolpa,Dolpo Buddha Gaunpalika,1897.0,2137.0,2420.0
+NP0662404,Mudkechula,Dolpa,Mudkechula Gaunpalika,3933.0,5165.0,5803.0
+NP0662405,Kaike,Dolpa,Kaike Gaunpalika,,3303.0,3965.0
+NP0662406,Chharka Tangsong,Dolpa,Chharka Tangsong Gaunpalika,1283.0,1451.0,1672.0
+NP0663301,Chandannath,Jumla,Chandannath Municipality,,20371.0,21036.0
+NP0663401,Kanaka Sundari,Jumla,Kanaka Sundari Gaunpalika,8419.0,13216.0,13625.0
+NP0663402,Sinja,Jumla,Sinja Gaunpalika,4765.0,12008.0,12556.0
+NP0663403,Patarasi,Jumla,Patarasi Gaunpalika,11400.0,14608.0,16824.0
+NP0663404,Hima,Jumla,Hima Gaunpalika,4933.0,10553.0,12191.0
+NP0663405,Tila,Jumla,Tila Gaunpalika,11431.0,13607.0,14539.0
+NP0663406,Tatopani,Jumla,Tatopani Gaunpalika,11208.0,14638.0,15575.0
+NP0663407,Guthichaur,Jumla,Guthichaur Gaunpalika,5353.0,9920.0,10922.0
+NP0664301,Raskot,Kalikot,Raskot Municipality,,16272.0,17425.0
+NP0664302,Khandachakra,Kalikot,Khandachakra Municipality,,20618.0,22274.0
+NP0664303,Tilagupha,Kalikot,Tilagupha Municipality,,15766.0,16197.0
+NP0664401,Naraharinath,Kalikot,Naraharinath Gaunpalika,17006.0,21381.0,22458.0
+NP0664402,Sanni Tribeni,Kalikot,Sanni Tribeni Gaunpalika,,12846.0,13491.0
+NP0664403,Pachal Jharana,Kalikot,Pachal Jharana Gaunpalika,,12343.0,13687.0
+NP0664404,Palata,Kalikot,Palata Gaunpalika,12101.0,15303.0,17346.0
+NP0664405,Shuva Kalika,Kalikot,Shuva Kalika Gaunpalika,,14080.0,13773.0
+NP0664406,Mahawai,Kalikot,Mahawai Gaunpalika,,8339.0,8177.0
+NP0665301,Chhayanath Rara,Mugu,Chhayanath Rara Municipality,,20457.0,24527.0
+NP0665401,Khatyad,Mugu,Khatyad Gaunpalika,12326.0,17146.0,18832.0
+NP0665402,Soru,Mugu,Soru Gaunpalika,,12260.0,14277.0
+NP0665403,Mugumakarmarog,Mugu,Mugumakarmarog Gaunpalika,5105.0,5423.0,6222.0
+NP0666401,Namkha,Humla,Namkha Gaunpalika,,4250.0,3589.0
+NP0666402,Simkot,Humla,Simkot Gaunpalika,,12038.0,11935.0
+NP0666403,Kharpunath,Humla,Kharpunath Gaunpalika,5139.0,6045.0,6736.0
+NP0666404,Sarkegad,Humla,Sarkegad Gaunpalika,,9868.0,10688.0
+NP0666405,Chankheli,Humla,Chankheli Gaunpalika,,5541.0,6579.0
+NP0666406,Tanjakot,Humla,Tanjakot Gaunpalika,4280.0,5976.0,6092.0
+NP0666407,Adanchuli,Humla,Adanchuli Gaunpalika,,7140.0,8265.0
+NP0767301,Bungal,Bajhang,Bungal Municipality,27284.0,33224.0,33812.0
+NP0767302,Jayaprithbi,Bajhang,Jayaprithbi Municipality,19093.0,22553.0,21933.0
+NP0767401,Saipal,Bajhang,Saipal Gaunpalika,1715.0,2193.0,2625.0
+NP0767402,Surma,Bajhang,Surma Gaunpalika,6523.0,9033.0,11082.0
+NP0767403,Talkot,Bajhang,Talkot Gaunpalika,9130.0,11569.0,11719.0
+NP0767404,Bitthadchir,Bajhang,Bitthadchir Gaunpalika,14164.0,17163.0,17812.0
+NP0767405,Kedarsyun,Bajhang,Kedarsyun Gaunpalika,18490.0,21316.0,21312.0
+NP0767406,Durgathali,Bajhang,Durgathali Gaunpalika,12022.0,12980.0,11318.0
+NP0767407,Chhabis Pathibhara,Bajhang,Chhabis Pathibhara Gaunpalika,14569.0,16296.0,14474.0
+NP0767408,Masta,Bajhang,Masta Gaunpalika,12114.0,14951.0,13265.0
+NP0767409,Thalara,Bajhang,Thalara Gaunpalika,16028.0,17978.0,15958.0
+NP0767410,Khaptad Chhanna,Bajhang,Khaptad Chhanna Gaunpalika,15715.0,15903.0,13419.0
+NP0767597,Khaptad,Bajhang,,,,
+NP0768301,Budhinanda,Bajura,Budhinanda Municipality,,18883.0,20072.0
+NP0768302,Badimalika,Bajura,Badimalika Municipality,,17259.0,18414.0
+NP0768303,Budhiganga,Bajura,Budhiganga Municipality,18697.0,21700.0,20185.0
+NP0768304,Tribeni,Bajura,Tribeni Municipality,14938.0,18363.0,17798.0
+NP0768401,Himali,Bajura,Himali Gaunpalika,,9229.0,10309.0
+NP0768402,Gaumul,Bajura,Gaumul Gaunpalika,,8515.0,8913.0
+NP0768403,Khaptad Chhededaha,Bajura,Khaptad Chhededaha Gaunpalika,15812.0,18741.0,19307.0
+NP0768404,Jagannath,Bajura,Jagannath Gaunpalika,,9432.0,10158.0
+NP0768405,Swamikartik Khapar,Bajura,Swamikartik Khapar Gaunpalika,10889.0,12790.0,12576.0
+NP0768597,Khaptad,Bajura,,,,
+NP0769301,Sanphebagar,Achham,Sanphebagar Municipality,,34128.0,25891.0
+NP0769302,Mangalsen,Achham,Mangalsen Municipality,,33191.0,26557.0
+NP0769303,Kamal bazar,Achham,Kamal bazar Municipality,,23770.0,21032.0
+NP0769304,Panchdebal Binayak,Achham,Panchdebal Binayak Municipality,,27495.0,26088.0
+NP0769401,Chaurpati,Achham,Chaurpati Gaunpalika,23323.0,25215.0,21681.0
+NP0769402,Mellekh,Achham,Mellekh Gaunpalika,21219.0,24728.0,22785.0
+NP0769403,Bannigadhi Jayagadh,Achham,Bannigadhi Jayagadh Gaunpalika,17102.0,17426.0,13519.0
+NP0769404,Ramaroshan,Achham,Ramaroshan Gaunpalika,20749.0,25172.0,23600.0
+NP0769405,Dhakari,Achham,Dhakari Gaunpalika,,21570.0,21998.0
+NP0769406,Turmakhand,Achham,Turmakhand Gaunpalika,21520.0,24782.0,24574.0
+NP0769597,Khaptad,Achham,,,,
+NP0770301,Shikhar,Doti,Shikhar Municipality,32462.0,32326.0,30399.0
+NP0770302,Dipayal Silgadhi,Doti,Dipayal Silgadhi Municipality,,36038.0,33968.0
+NP0770401,Aadarsha,Doti,Aadarsha Gaunpalika,24208.0,24482.0,24495.0
+NP0770402,Sayal,Doti,Sayal Gaunpalika,,19575.0,20456.0
+NP0770403,Purbichouki,Doti,Purbichouki Gaunpalika,,22489.0,21494.0
+NP0770404,Jorayal,Doti,Jorayal Gaunpalika,,21296.0,19788.0
+NP0770405,K.I. Singh,Doti,K.I. Singh Gaunpalika,21073.0,20903.0,20736.0
+NP0770406,Badi Kedar,Doti,Badi Kedar Gaunpalika,16572.0,16731.0,14902.0
+NP0770407,Bogatan Phudsil,Doti,Bogatan Phudsil Gaunpalika,19638.0,17906.0,15540.0
+NP0770597,Khaptad,Doti,,,,
+NP0771201,Dhangadhi,Kailali,Dhangadhi Sub-Metropolitian City,105586.0,149818.0,198792.0
+NP0771301,Godawari,Kailali,Godawari Municipality,,79686.0,98746.0
+NP0771302,Gauriganga,Kailali,Gauriganga Municipality,,58286.0,64558.0
+NP0771303,Ghodaghodi,Kailali,Ghodaghodi Municipality,55579.0,75965.0,86034.0
+NP0771304,Bhajani,Kailali,Bhajani Municipality,45768.0,52128.0,53494.0
+NP0771305,Tikapur,Kailali,Tikapur Municipality,59917.0,76940.0,89835.0
+NP0771306,Lamki Chuha,Kailali,Lamki Chuha Municipality,61074.0,76007.0,90971.0
+NP0771401,Chure,Kailali,Chure Gaunpalika,16652.0,19157.0,21400.0
+NP0771402,Kailari,Kailali,Kailari Gaunpalika,,47987.0,49917.0
+NP0771403,Mohanyal,Kailali,Mohanyal Gaunpalika,20975.0,22053.0,21082.0
+NP0771404,Joshipur,Kailali,Joshipur Gaunpalika,32571.0,36459.0,37187.0
+NP0771405,Bardagoriya,Kailali,Bardagoriya Gaunpalika,24770.0,32683.0,37682.0
+NP0771406,Janaki,Kailali,Janaki Gaunpalika,50114.0,48540.0,49860.0
+NP0772301,Dodhara Chandani,Kanchanpur,Dodhara Chandani Municipality,,,42974.0
+NP0772302,Bhimdatta,Kanchanpur,Bhimdatta Municipality,80839.0,106666.0,122320.0
+NP0772303,Bedkot,Kanchanpur,Bedkot Municipality,40742.0,49490.0,57680.0
+NP0772304,Shuklaphanta,Kanchanpur,Shuklaphanta Municipality,,47360.0,53969.0
+NP0772305,Krishnapur,Kanchanpur,Krishnapur Municipality,,56643.0,71500.0
+NP0772306,Belouri,Kanchanpur,Belouri Municipality,45869.0,53609.0,53910.0
+NP0772307,Punarbas,Kanchanpur,Punarbas Municipality,,53672.0,61748.0
+NP0772401,Beldandi,Kanchanpur,Beldandi Gaunpalika,24771.0,21949.0,21888.0
+NP0772402,Laljhadi,Kanchanpur,Laljhadi Gaunpalika,,22569.0,25037.0
+NP0772597,Shuklaphanta,Kanchanpur,Shuklaphanta Municipality,,47360.0,53969.0
+NP0773301,Parashuram,Dadeldhura,Parashuram Municipality,30093.0,35030.0,35590.0
+NP0773302,Amargadhi,Dadeldhura,Amargadhi Municipality,18390.0,22241.0,24149.0
+NP0773401,Bhageshwor,Dadeldhura,Bhageshwor Gaunpalika,13356.0,14132.0,13132.0
+NP0773402,Ajayameru,Dadeldhura,Ajayameru Gaunpalika,17503.0,17066.0,15161.0
+NP0773403,Nawadurga,Dadeldhura,Nawadurga Gaunpalika,17987.0,19985.0,18672.0
+NP0773404,Aalital,Dadeldhura,Aalital Gaunpalika,14157.0,18531.0,18112.0
+NP0773405,Ganyapdhura,Dadeldhura,Ganyapdhura Gaunpalika,14277.0,15109.0,13722.0
+NP0774301,Dasharathchand,Baitadi,Dasharathchand Municipality,,35211.0,31567.0
+NP0774302,Puchaundi,Baitadi,Puchaundi Municipality,34374.0,39190.0,38281.0
+NP0774303,Melauli,Baitadi,Melauli Municipality,,22545.0,20658.0
+NP0774304,Patan,Baitadi,Patan Municipality,29250.0,30456.0,29230.0
+NP0774401,Dilasaini,Baitadi,Dilasaini Gaunpalika,21198.0,22924.0,22966.0
+NP0774402,Dogada Kedar,Baitadi,Dogada Kedar Gaunpalika,,24632.0,23104.0
+NP0774403,Surnaya,Baitadi,Surnaya Gaunpalika,,18549.0,17945.0
+NP0774404,Pancheshwor,Baitadi,Pancheshwor Gaunpalika,,18766.0,17796.0
+NP0774405,Shivanath,Baitadi,Shivanath Gaunpalika,,17115.0,18064.0
+NP0774406,Sigas,Baitadi,Sigas Gaunpalika,,21510.0,21814.0
+NP0775301,Mahakali,Darchula,Mahakali Municipality,,21881.0,24081.0
+NP0775302,Shailyashikhar,Darchula,Shailyashikhar Municipality,19829.0,22200.0,21807.0
+NP0775401,Byas,Darchula,Byas Gaunpalika,10346.0,10347.0,9668.0
+NP0775402,Duhun,Darchula,Duhun Gaunpalika,10607.0,10818.0,9842.0
+NP0775403,Apihimal,Darchula,Apihimal Gaunpalika,,6779.0,6798.0
+NP0775404,Malikarjun,Darchula,Malikarjun Gaunpalika,15889.0,15581.0,15635.0
+NP0775405,Naugad,Darchula,Naugad  Gaunpalika,13143.0,15874.0,15528.0
+NP0775406,Lekam,Darchula,Lekam Gaunpalika,15137.0,14838.0,13743.0
+NP0775407,Marma,Darchula,Marma Gaunpalika,,14956.0,15124.0

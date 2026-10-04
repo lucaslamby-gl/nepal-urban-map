@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nepal Urban Centres</title>
+<meta name="description" content="Interactive 3D population density map of Nepal with urban agglomerations, growth 2001 to 2021 and driving distances between centres.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/deck.gl@8.9.35/dist.min.js"></script>
+<script src="https://unpkg.com/h3-js@4.1.0/dist/h3-js.umd.js"></script>
+<style>
+:root{
+  --bg:#f6f5f2; --panel:#ffffff; --fg:#1d1f22; --muted:#6a6f78; --line:#dcd9d2;
+  --accent:#a51c30; --accent-soft:#f3dde0;
+  --font-sans:"IBM Plex Sans",system-ui,sans-serif; --font-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-sans);font-size:14px;line-height:1.45}
+*{box-sizing:border-box}
+.app{display:grid;grid-template-columns:360px 1fr;grid-template-rows:auto 1fr auto;height:100%;min-height:620px}
+header{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+header h1{font-size:17px;font-weight:600;margin:0;letter-spacing:-.01em}
+header .sub{color:var(--muted);font-size:13px}
+header .gl{margin-left:auto;font-size:12px;color:var(--muted)}
+aside{border-right:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-height:0;min-width:0}
+.controls{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.seg button{background:none;border:0;color:var(--fg);padding:6px 13px;font:inherit;font-weight:500;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.seg button:focus-visible,.list button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.layers{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
+.layers label{display:flex;align-items:center;gap:6px;cursor:pointer}
+.layers input{accent-color:var(--accent)}
+.note{font-size:11.5px;color:var(--muted)}
+.listhead{display:grid;grid-template-columns:1fr 72px 62px;gap:8px;padding:8px 16px 4px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.listhead span:not(:first-child){text-align:right}
+.list{overflow:auto;flex:1;min-height:120px}
+.list button{display:grid;grid-template-columns:1fr 72px 62px;gap:8px;width:100%;text-align:left;background:none;border:0;border-top:1px solid var(--line);padding:7px 16px;font:inherit;color:var(--fg);cursor:pointer;align-items:baseline}
+.list button:hover{background:var(--accent-soft)}
+.list button.active{background:var(--accent-soft);box-shadow:inset 3px 0 0 var(--accent)}
+.list .n{font-weight:500}
+.list .n small{display:block;color:var(--muted);font-weight:400;font-size:12px}
+.list .v{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:13px}
+.list .g{text-align:right;font-family:var(--font-mono);font-size:12px;color:var(--accent)}
+.detail{border-top:1px solid var(--line);padding:12px 16px;font-size:13px;max-height:50%;overflow:auto}
+.detail h2{margin:0 0 2px;font-size:15px;font-weight:600}
+.detail .el{color:var(--muted);margin-bottom:8px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:0}
+.kv dt{color:var(--muted)}.kv dd{margin:0;font-family:var(--font-mono);font-variant-numeric:tabular-nums;text-align:right}
+.detail h3{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:500;margin:12px 0 4px}
+.dist{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:12.5px}
+.dist th{font-weight:500;color:var(--muted);text-align:right;padding:2px 0;font-size:11px}
+.dist th:first-child{text-align:left}
+.dist td{padding:3px 0;border-top:1px solid var(--line)}
+.dist td:not(:first-child){text-align:right;font-family:var(--font-mono);font-size:12px;padding-left:6px}
+.dist tr.pick{cursor:pointer}.dist tr.pick:hover td{background:var(--accent-soft)}
+.detail .mun{margin-top:8px;color:var(--muted)}
+.detail .mun b{color:var(--fg);font-weight:500}
+.mapwrap{position:relative;min-width:0;min-height:0}
+#map{position:absolute;inset:0}
+.legend{position:absolute;left:12px;bottom:28px;background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:4px;padding:10px 12px;font-size:12px;max-width:280px}
+.legend h3{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:500}
+.ramp{height:10px;border-radius:2px;background:linear-gradient(90deg,#fdf1c7,#f9c268,#ec7a4a,#c23b5a,#7a1f6a,#2e0f3f)}
+.ramplbl{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10px;color:var(--muted);margin-top:3px}
+.lg{display:flex;align-items:center;gap:8px;margin-top:5px}
+.sw{width:18px;height:10px;border-radius:2px;flex:none}
+.tip{position:absolute;top:12px;left:12px;background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:4px;padding:6px 10px;font-size:12px;pointer-events:none;max-width:320px}
+.view{position:absolute;right:12px;top:12px;display:flex;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:rgba(255,255,255,.95)}
+.view button{border:0;background:none;color:var(--fg);padding:6px 10px;font:inherit;font-size:12px;cursor:pointer}
+.view button+button{border-left:1px solid var(--line)}
+.view button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.methods{position:absolute;right:12px;bottom:28px;max-width:360px;background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:4px;padding:10px 12px;font-size:12px;color:var(--muted)}
+.methods summary{cursor:pointer;color:var(--fg);font-weight:500}
+.methods p{margin:6px 0 0}
+footer{grid-column:1/-1;font-size:11px;color:var(--muted);padding:6px 16px;border-top:1px solid var(--line);background:var(--panel)}
+footer a{color:inherit}
+.loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(246,245,242,.8);font-size:13px;color:var(--muted);z-index:5}
+@media (max-width:760px){
+  .app{grid-template-columns:1fr;grid-template-rows:auto 60vh auto auto}
+  aside{order:3;border-right:0;border-top:1px solid var(--line)}
+  .mapwrap{order:2}
+  .methods{display:none}
+  .legend{max-width:210px}
+}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <h1>Nepal Urban Centres</h1>
+  <span class="sub">Population density in 3D, agglomerations, road distances, 2001 vs 2021</span>
+  <span class="gl">Harvard Growth Lab</span>
+</header>
+
+<aside>
+  <div class="controls">
+    <div class="row">
+      <div class="seg" role="group" aria-label="Year">
+        <button id="y0" aria-pressed="false">2001</button>
+        <button id="y1" aria-pressed="true">2021</button>
+      </div>
+      <div class="seg" role="group" aria-label="Density style">
+        <button id="s3d" aria-pressed="true">3D</button>
+        <button id="s2d" aria-pressed="false">Flat</button>
+      </div>
+      <div class="seg" role="group" aria-label="Basemap">
+        <button id="bLight" aria-pressed="true">Light map</button>
+        <button id="bSat" aria-pressed="false">Satellite</button>
+      </div>
+    </div>
+    <div class="layers">
+      <label><input type="checkbox" id="lDensity" checked> Density</label>
+      <label><input type="checkbox" id="lUC" checked> Agglomerations</label>
+      <label><input type="checkbox" id="lRoads" checked> Highways &amp; crossings</label>
+      <label><input type="checkbox" id="lMun"> Municipal borders</label>
+    </div>
+  </div>
+  <div class="listhead"><span>Urban centre</span><span id="popHead">Pop. 2021</span><span>Δ 2001</span></div>
+  <div class="list" id="list"></div>
+  <div class="detail" id="detail"></div>
+</aside>
+
+<div class="mapwrap">
+  <div id="map"></div>
+  <div class="loading" id="loading">Loading population grid…</div>
+  <div class="view" role="group" aria-label="View">
+    <button id="vNat" aria-pressed="true">Nepal</button>
+    <button id="vKtm" aria-pressed="false">Kathmandu Valley</button>
+    <button id="vTerai" aria-pressed="false">Eastern Terai</button>
+  </div>
+  <div class="tip" id="tip" hidden></div>
+  <div class="legend">
+    <h3>People per km², 0.7 km² hexagons</h3>
+    <div class="ramp"></div>
+    <div class="ramplbl"><span>&lt;100</span><span>500</span><span>1,500</span><span>5,000</span><span>&gt;15,000</span></div>
+    <div class="lg"><span class="sw" style="border:2px solid #1d1f22;background:none;height:8px"></span>Urban centre (Degree of Urbanisation)</div>
+    <div class="lg"><span class="sw" style="background:#55585f;height:2px"></span>Trunk and primary highways</div>
+    <div class="lg"><span class="sw" style="background:#2b6cb0;width:10px;height:10px;border-radius:50%"></span>Border crossing</div>
+    <div class="lg"><span class="sw" style="border-top:2px dashed #a51c30;height:0"></span>Road route from selected centre</div>
+    <div style="margin-top:6px;color:var(--muted)">Drag to pan · scroll to zoom · right-drag or ctrl-drag to tilt</div>
+  </div>
+  <details class="methods">
+    <summary>Definitions and sources</summary>
+    <p><b>Population</b>: census-constrained hexagons (H3 resolution 8, about 0.74 km²). Each of Nepal's 753 local units is scaled to its census total: 2021 from the National Statistics Office tables, 2001 from the census re-aggregated to today's units (citypopulation.de compilation of NSO data, with district totals where a unit figure is missing). The within-unit pattern comes from the Kontur Population grid (2023, built-up informed) for 2021 and from GHS-POP 2000 for 2001. Height and colour both show people per km².</p>
+    <p><b>Why not a grid as published</b>: WorldPop, Meta HRSL, GHS-POP and Kontur were each checked against census totals with the official boundaries. All share the same unit-level errors in Nepal (Butwal at a fifth of its census population, Punarbas at three times), so they are used only for the within-unit distribution.</p>
+    <p><b>Urban centres</b>: Degree of Urbanisation rules (UN Statistical Commission 2020) applied to a 1 km grid built from the hexagons: contiguous cells with at least 1,500 people per km² whose total population is at least 50,000, with holes and gaps filled. Centres cut across municipal borders. A centre is named after the most populous municipality it overlaps. The 2001 outlines apply the same rules to the 2001 grid.</p>
+    <p><b>Driving distances</b>: OSRM routing on OpenStreetMap roads between centre centroids. Implied speed is road distance divided by routed time. Nepal's road network in OpenStreetMap is good for highways, so times are indicative.</p>
+    <p><b>Other layers</b>: highways and routes from OpenStreetMap, boundaries from OCHA (COD-AB 2024), elevation from Copernicus DEM via Open-Meteo, basemaps from CARTO and Esri.</p>
+  </details>
+</div>
+
+<footer>Sources: National Statistics Office Nepal (census 2021, 2001), Kontur Population 2023, GHS-POP 2000 (JRC), OCHA boundaries, OpenStreetMap contributors, OSRM, Copernicus DEM. Basemap and imagery © Esri and partners, © OpenStreetMap contributors. Prepared by the Harvard Growth Lab. Code and data: <a id="repo" href="https://github.com/lucaslamby-gl/nepal-urban-map">GitHub</a>.</footer>
+</div>
+
+<script>
+const Y0=2001, Y1=2021;
+const COLORS=[[253,241,199],[249,194,104],[236,122,74],[194,59,90],[122,31,106],[46,15,63]];
+const BREAKS=[100,500,1500,5000,15000];   // people per km² -> colour bins
+const HEX_KM2=0.737;
+const VIEWS={nat:{center:[84.2,28.1],zoom:6.2,pitch:50,bearing:-6},ktm:{center:[85.33,27.68],zoom:10.3,pitch:55,bearing:-20},terai:{center:[87.1,26.6],zoom:8.4,pitch:50,bearing:0}};
+const STYLE=sat=>({version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
+  sources:{
+    carto:{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}'],tileSize:256,maxzoom:16,attribution:'Basemap © Esri, HERE, Garmin, OpenStreetMap contributors'},
+    cartolab:{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}'],tileSize:256,maxzoom:16},
+    esri:{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],tileSize:256,attribution:'Imagery © Esri, Maxar, Earthstar Geographics'}
+  },
+  layers:[{id:'bg',type:'background',paint:{'background-color':'#eceae4'}},
+    {id:'carto',type:'raster',source:'carto',layout:{visibility:sat?'none':'visible'}},
+    {id:'esri',type:'raster',source:'esri',layout:{visibility:sat?'visible':'none'}},
+    {id:'cartolab',type:'raster',source:'cartolab',layout:{visibility:sat?'none':'visible'},paint:{'raster-opacity':0.9}}]});
+
+const H=new Set(location.hash.replace('#','').split(/[,&]/));
+let year=H.has('2001')?Y0:Y1,style3d=!H.has('flat'),sat=H.has('sat'),active=null,hover=null;
+const show={density:true,uc:true,roads:true,mun:false};
+const D={};
+
+const fmtN=v=>Math.round(v).toLocaleString('en-US');
+const fmtK=v=>v>=1e6?(v/1e6).toFixed(2)+' M':Math.round(v/1000)+' k';
+const hhmm=m=>{const h=Math.floor(m/60),mm=Math.round(m%60);return h?`${h} h ${String(mm).padStart(2,'0')}`:`${mm} min`;};
+const colorFor=d=>{let i=0;while(i<BREAKS.length&&d>=BREAKS[i])i++;return COLORS[i];};
+const P=(u,yr)=>yr===Y1?u.pop_2021:u.pop_2001;
+
+const V0=VIEWS[H.has('ktm')?'ktm':H.has('terai')?'terai':'nat'];
+const map=new maplibregl.Map({container:'map',style:STYLE(sat),center:V0.center,zoom:V0.zoom,pitch:V0.pitch,bearing:V0.bearing,maxPitch:70,attributionControl:{compact:true}});
+map.addControl(new maplibregl.NavigationControl({visualizePitch:true}),'bottom-right');
+const overlay=new deck.MapboxOverlay({interleaved:false,layers:[],getTooltip:null});
+map.addControl(overlay);
+
+function layers(){
+  const L=[];
+  if(!D.hex)return L;
+  const hex=D.hex[year];
+  if(show.density){
+    L.push(new deck.SolidPolygonLayer({id:'hex-'+year+'-'+style3d,data:hex,getPolygon:d=>d.b,getFillColor:d=>colorFor(d.p/HEX_KM2),getElevation:d=>d.p/HEX_KM2,elevationScale:style3d?0.35:0,extruded:style3d,opacity:style3d?0.95:0.75,pickable:true,
+      onHover:o=>{hover=o.object?{kind:'hex',o}:null;tip();},material:{ambient:0.6,diffuse:0.55,shininess:24,specularColor:[80,80,80]}}));
+  }
+  if(show.mun&&D.mun){L.push(new deck.GeoJsonLayer({id:'mun',data:D.mun,filled:false,stroked:true,getLineColor:[120,120,130,160],lineWidthMinPixels:0.6}));}
+  if(show.roads&&D.roads){
+    L.push(new deck.GeoJsonLayer({id:'roads',data:D.roads,filled:false,stroked:true,getLineColor:[85,88,95,210],getLineWidth:f=>f.properties.cls==='trunk'?2:1.1,lineWidthUnits:'pixels',lineWidthMinPixels:0.8}));
+    L.push(new deck.GeoJsonLayer({id:'x',data:D.xings,pointType:'circle+text',getFillColor:[43,108,176],getLineColor:[255,255,255],lineWidthMinPixels:1,stroked:true,pointRadiusMinPixels:3.5,pointRadiusMaxPixels:5,
+      getText:f=>f.properties.name.split(' – ')[0],getTextSize:11,getTextColor:[43,80,140],getTextPixelOffset:[0,13],textFontFamily:'IBM Plex Sans, sans-serif',textOutlineWidth:3,textOutlineColor:[255,255,255,230],textFontSettings:{sdf:true}}));
+  }
+  if(show.uc&&D.uc){
+    const yrUC=year===Y1?D.uc:D.uc00;
+    L.push(new deck.GeoJsonLayer({id:'uc-'+year,data:yrUC,filled:true,stroked:true,getFillColor:f=>f.properties.id===active?[165,28,48,40]:[0,0,0,0],getLineColor:f=>f.properties.id===active?[165,28,48,255]:[29,31,34,220],getLineWidth:f=>f.properties.id===active?3:1.4,lineWidthUnits:'pixels',pickable:year===Y1,autoHighlight:true,highlightColor:[165,28,48,40],
+      onClick:o=>select(o.object.properties.id),onHover:o=>{hover=o.object?{kind:'uc',o}:null;tip();},updateTriggers:{getFillColor:active,getLineColor:active,getLineWidth:active}}));
+    const lab=D.uc.features.filter(f=>P(f.properties,year)>=100000||f.properties.id===active);
+    L.push(new deck.TextLayer({id:'ucl',data:lab,getPosition:f=>[f.properties.lon,f.properties.lat],getText:f=>f.properties.name,getColor:[29,31,34],getSize:12.5,getPixelOffset:[0,-14],fontFamily:'IBM Plex Sans, sans-serif',fontWeight:600,outlineWidth:4,outlineColor:[255,255,255,235],fontSettings:{sdf:true}}));
+  }
+  if(active!==null&&D.routes){
+    const links=neighbours(active).map(({j,km})=>{const key=active<j?`${active}-${j}`:`${j}-${active}`;const path=D.routes.routes[key];return path?{path,km}:null;}).filter(Boolean);
+    L.push(new deck.PathLayer({id:'links',data:links,getPath:d=>d.path,getColor:[165,28,48,230],getWidth:2.2,widthUnits:'pixels',getDashArray:[6,4],dashJustified:true,extensions:[new deck.PathStyleExtension({dash:true})]}));
+  }
+  return L;
+}
+const update=()=>overlay.setProps({layers:layers()});
+
+function neighbours(i,k=6){const km=D.routes.matrix.km[i],mn=D.routes.matrix.min[i];return D.uc.features.map(f=>f.properties.id).filter(j=>j!==i&&km[j]>0).map(j=>({j,km:km[j],min:mn[j]})).sort((a,b)=>a.km-b.km).slice(0,k);}
+const byId=i=>D.uc.features.find(f=>f.properties.id===i).properties;
+
+function tip(){const t=document.getElementById('tip');if(!hover){t.hidden=true;return;}t.hidden=false;
+  if(hover.kind==='hex'){const p=hover.o.object.p;t.innerHTML=`<b>${fmtN(p)}</b> people in this hexagon · ${fmtN(p/HEX_KM2)} per km² (${year})`;}
+  else{const u=hover.o.object.properties;t.innerHTML=`<b>${u.name}</b> · ${fmtN(P(u,year))} people (${year}) · ${fmtN(u.elev)} m`;}}
+
+function renderList(){
+  const L=document.getElementById('list');L.innerHTML='';document.getElementById('popHead').textContent='Pop. '+year;
+  const feats=[...D.uc.features].sort((a,b)=>P(b.properties,year)-P(a.properties,year));
+  feats.forEach(f=>{const u=f.properties;const b=document.createElement('button');b.className=active===u.id?'active':'';
+    const g=u.pop_2001?Math.round((u.pop_2021/u.pop_2001-1)*100):0;
+    b.innerHTML=`<span class="n">${u.name}<small>${fmtN(u.elev)} m a.s.l. · ${u.area_km2} km²</small></span><span class="v">${fmtK(P(u,year))}</span><span class="g">${g>=0?'+':''}${g}%</span>`;
+    b.onclick=()=>select(u.id);L.appendChild(b);});
+}
+function renderDetail(){
+  const Dv=document.getElementById('detail');
+  if(active===null){Dv.innerHTML='<p style="color:var(--muted);margin:0">Click an urban centre on the map or in the list for its population, density, growth since 2001, the municipalities it spans and driving distances to neighbouring centres.</p>';return;}
+  const u=byId(active);
+  const rows=neighbours(active).map(({j,km,min})=>{const v=byId(j);const spd=min>0?km/(min/60):0;return `<tr class="pick" data-j="${j}"><td>${v.name}</td><td>${fmtK(P(v,year))}</td><td>${Math.round(km)}</td><td>${hhmm(min)}</td><td>${Math.round(spd)}</td></tr>`;}).join('');
+  const fp00=u.pop_2001_ownfp>0?`<dt>Centre in 2001</dt><dd>${fmtN(u.pop_2001_ownfp)} · ${u.area_2001} km²</dd>`:`<dt>Centre in 2001</dt><dd>below 50,000 threshold</dd>`;
+  const muns=(u.municipalities||[]).map((m,i)=>`${m}${u.mun_pop2021&&u.mun_pop2021[i]?' <span style="color:var(--muted)">('+fmtK(u.mun_pop2021[i])+')</span>':''}`).join(', ');
+  Dv.innerHTML=`<h2>${u.name}</h2><div class="el">${u.district?u.district+' district · ':''}Elevation ${fmtN(u.elev)} m · ${u.lon.toFixed(2)}°E ${u.lat.toFixed(2)}°N</div>
+  <dl class="kv"><dt>Population 2021</dt><dd>${fmtN(u.pop_2021)}</dd><dt>Same footprint, 2001</dt><dd>${fmtN(u.pop_2001)}</dd><dt>Growth 2001→2021</dt><dd>${u.pop_2001?'+'+Math.round((u.pop_2021/u.pop_2001-1)*100)+'%':'n/a'}</dd><dt>Area 2021</dt><dd>${u.area_km2} km²</dd><dt>Density 2021</dt><dd>${fmtN(u.density)} /km²</dd>${fp00}</dl>
+  <h3>Driving distance to nearest centres</h3><table class="dist"><tr><th>Centre</th><th>Pop. ${year}</th><th>km</th><th>Time</th><th>km/h</th></tr>${rows}</table>
+  <div class="note" style="margin-top:4px">OSRM routing on OpenStreetMap roads, centroid to centroid. Click a row to jump.</div>
+  <div class="mun"><b>Municipalities inside</b> (2021 census of the whole municipality): ${muns}</div>`;
+  Dv.querySelectorAll('tr.pick').forEach(tr=>tr.onclick=()=>select(+tr.dataset.j));
+}
+function select(i){active=active===i?null:i;renderList();renderDetail();update();if(active!==null){const u=byId(i);map.flyTo({center:[u.lon,u.lat],zoom:9.6,pitch:55,bearing:-15,duration:1200});}}
+
+// controls
+const press=(on,...off)=>{on.setAttribute('aria-pressed','true');off.forEach(b=>b.setAttribute('aria-pressed','false'));};
+const b0=document.getElementById('y0'),b1=document.getElementById('y1'),s3=document.getElementById('s3d'),s2=document.getElementById('s2d'),bl=document.getElementById('bLight'),bs=document.getElementById('bSat');
+b0.onclick=()=>{year=Y0;press(b0,b1);renderList();renderDetail();update();};
+b1.onclick=()=>{year=Y1;press(b1,b0);renderList();renderDetail();update();};
+s3.onclick=()=>{style3d=true;press(s3,s2);update();};
+s2.onclick=()=>{style3d=false;press(s2,s3);update();};
+function setBase(s){sat=s;press(s?bs:bl,s?bl:bs);map.setLayoutProperty('esri','visibility',s?'visible':'none');map.setLayoutProperty('carto','visibility',s?'none':'visible');map.setLayoutProperty('cartolab','visibility',s?'none':'visible');}
+bl.onclick=()=>setBase(false);bs.onclick=()=>setBase(true);
+for(const [id,k] of [['lDensity','density'],['lUC','uc'],['lRoads','roads'],['lMun','mun']]){document.getElementById(id).onchange=e=>{show[k]=e.target.checked;if(k==='mun'&&show.mun&&!D.mun){fetch('data/municipalities.geojson').then(r=>r.json()).then(j=>{D.mun=j;update();});}update();};}
+const vb={nat:document.getElementById('vNat'),ktm:document.getElementById('vKtm'),terai:document.getElementById('vTerai')};
+Object.entries(vb).forEach(([k,b])=>b.onclick=()=>{press(b,...Object.values(vb).filter(x=>x!==b));map.flyTo({...VIEWS[k],duration:1400});});
+
+// initial control state from hash
+if(year===Y0)press(b0,b1);if(!style3d)press(s2,s3);if(sat)press(bs,bl);
+// data
+Promise.all([fetch('data/hex_2001.json').then(r=>r.json()),fetch('data/hex_2021.json').then(r=>r.json()),fetch('data/urban_centres.geojson').then(r=>r.json()),fetch('data/urban_centres_2001.geojson').then(r=>r.json()),fetch('data/roads.geojson').then(r=>r.json()),fetch('data/crossings.geojson').then(r=>r.json()),fetch('data/routes.json').then(r=>r.json())])
+.then(([h0,h1,uc,uc00,roads,xings,routes])=>{
+  const unpack=h=>h.h3.map((x,i)=>({h:x,p:h.pop[i],b:h3.cellToBoundary(x,true)}));
+  D.hex={[Y0]:unpack(h0),[Y1]:unpack(h1)};D.uc=uc;D.uc00=uc00;D.roads=roads;D.xings=xings;D.routes=routes;
+  uc.features.forEach(f=>{for(const k of ['municipalities','mun_pop2021']){if(typeof f.properties[k]==='string'){try{f.properties[k]=JSON.parse(f.properties[k]);}catch(e){f.properties[k]=[f.properties[k]];}}}});
+  document.getElementById('loading').remove();
+  renderList();renderDetail();update();
+}).catch(e=>{document.getElementById('loading').textContent='Could not load data: '+e;});
+</script>
+</body>
+</html>

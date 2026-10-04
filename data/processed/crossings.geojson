@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "crossings",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Kakarbhitta – Panitanki", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 88.154, 26.646 ] } },
+{ "type": "Feature", "properties": { "name": "Biratnagar – Jogbani", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 87.273, 26.403 ] } },
+{ "type": "Feature", "properties": { "name": "Birgunj – Raxaul", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 84.878, 26.995 ] } },
+{ "type": "Feature", "properties": { "name": "Bhairahawa – Sunauli", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 83.425, 27.481 ] } },
+{ "type": "Feature", "properties": { "name": "Nepalgunj – Rupaidiha", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 81.633, 28.004 ] } },
+{ "type": "Feature", "properties": { "name": "Dhangadhi – Gauriphanta", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 80.577, 28.636 ] } },
+{ "type": "Feature", "properties": { "name": "Mahendranagar – Banbasa", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 80.077, 28.956 ] } },
+{ "type": "Feature", "properties": { "name": "Jaleshwar – Bhitamore", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 85.801, 26.631 ] } },
+{ "type": "Feature", "properties": { "name": "Krishnanagar – Barhni", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 82.942, 27.52 ] } },
+{ "type": "Feature", "properties": { "name": "Rajbiraj – Kunauli", "country": "IN" }, "geometry": { "type": "Point", "coordinates": [ 86.75, 26.47 ] } },
+{ "type": "Feature", "properties": { "name": "Rasuwagadhi – Kerung", "country": "CN" }, "geometry": { "type": "Point", "coordinates": [ 85.38, 28.277 ] } },
+{ "type": "Feature", "properties": { "name": "Tatopani – Zhangmu", "country": "CN" }, "geometry": { "type": "Point", "coordinates": [ 85.964, 27.973 ] } }
+]
+}

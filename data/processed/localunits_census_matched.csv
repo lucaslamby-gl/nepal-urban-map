@@ -1,0 +1,776 @@
+adm3_pcode,adm3_name,adm2_name,name_c,pop2001,pop2011,pop2021
+NP0101301,Phungling,Taplejung,,23651.0,26626.0,28449.0
+NP0101401,Phaktanlung,Taplejung,Phaktanglung,12938.0,12017.0,11791.0
+NP0101402,Mikwakhola,Taplejung,,9561.0,9160.0,7964.0
+NP0101403,Sirijanga,Taplejung,Sirijangha,17134.0,15806.0,14114.0
+NP0101404,Meringden,Taplejung,,,13284.0,11838.0
+NP0101405,Maiwakhola,Taplejung,,12485.0,11094.0,10213.0
+NP0101406,Aatharai Tribeni,Taplejung,Aathrai Tribeni,15978.0,13784.0,12296.0
+NP0101407,Pathivara Yangwarak,Taplejung,Pathibhara Yangwarak,15509.0,13591.0,11806.0
+NP0101408,Sidingba,Taplejung,Sidingwa,13477.0,12099.0,10979.0
+NP0102301,Phidim,Panchthar,,,50164.0,48495.0
+NP0102401,Hilihan,Panchthar,Hilihang,25895.0,22954.0,19085.0
+NP0102402,Yangbarak,Panchthar,Yangwarak,19866.0,18353.0,16821.0
+NP0102403,Falelung,Panchthar,Phalelung,,21884.0,20361.0
+NP0102404,Kummayak,Panchthar,,18591.0,16119.0,12746.0
+NP0102405,Falgunanda,Panchthar,Phalgunanda,25329.0,24233.0,21289.0
+NP0102406,Tumbewa,Panchthar,Tumwewa,15028.0,13454.0,11189.0
+NP0102407,Miklajung,Panchthar,,27456.0,24656.0,21061.0
+NP0103301,Deumai,Ilam,,,32386.0,30969.0
+NP0103302,Illam,Ilam,Ilam,44940.0,49330.0,50085.0
+NP0103303,Suryodaya,Ilam,,,56957.0,54727.0
+NP0103304,Mai,Ilam,,,33210.0,30732.0
+NP0103401,Fakfokathum,Ilam,Phakphokthum,,22160.0,19706.0
+NP0103402,Sandakpur,Ilam,,,16065.0,15444.0
+NP0103403,Mai Jogmai,Ilam,,,21064.0,19131.0
+NP0103404,Chulachuli,Ilam,,,21413.0,23157.0
+NP0103405,Mangsebung,Ilam,,16028.0,18534.0,16810.0
+NP0103406,Rong,Ilam,,18983.0,19135.0,17367.0
+NP0104301,Damak,Jhapa,,35009.0,75743.0,107227.0
+NP0104302,Shivasatakshi,Jhapa,,43632.0,64638.0,74077.0
+NP0104303,Kankai,Jhapa,,32801.0,40294.0,53148.0
+NP0104304,Arjundhara,Jhapa,,50513.0,60480.0,84018.0
+NP0104305,Mechinagar,Jhapa,,97422.0,112997.0,133073.0
+NP0104306,Gauradaha,Jhapa,,50793.0,53049.0,60451.0
+NP0104307,Birtamod,Jhapa,,58001.0,82592.0,116192.0
+NP0104308,Bhadrapur,Jhapa,,56841.0,66629.0,70913.0
+NP0104401,Kamal,Jhapa,,34530.0,44679.0,53894.0
+NP0104402,Buddhashanti,Jhapa,,37179.0,41624.0,53010.0
+NP0104403,Gauriganj,Jhapa,Gaurigunj,30759.0,33085.0,35506.0
+NP0104404,Jhapa,Jhapa,,31008.0,34622.0,39302.0
+NP0104405,Barhadashi,Jhapa,Bahradashi,32502.0,33674.0,37946.0
+NP0104406,Haldibari,Jhapa,,28129.0,28951.0,32722.0
+NP0104407,Kachanakawal,Jhapa,Kachankawal,30229.0,39593.0,41317.0
+NP0105101,Biratnagar,Morang,,,218526.0,243927.0
+NP0105301,Letang,Morang,,,32782.0,38152.0
+NP0105302,Sundarharaicha,Morang,,62221.0,80621.0,120213.0
+NP0105303,Belbari,Morang,,58397.0,65974.0,81771.0
+NP0105304,Pathari Shanishchare,Morang,,56012.0,61132.0,72451.0
+NP0105305,Urlabari,Morang,,,54696.0,70908.0
+NP0105306,Rangeli,Morang,,51186.0,51357.0,57494.0
+NP0105307,Sunwarshi,Morang,Sunawarshi,,51444.0,56034.0
+NP0105308,Ratuwamai,Morang,,,55418.0,61139.0
+NP0105401,Kerabari,Morang,,,30918.0,34504.0
+NP0105402,Miklajung,Morang,,,28709.0,33167.0
+NP0105403,Kanepokhari,Morang,,37359.0,38041.0,43193.0
+NP0105404,Budhiganga,Morang,,34193.0,41971.0,51497.0
+NP0105405,Gramthan,Morang,,31374.0,32717.0,36024.0
+NP0105406,Katahari,Morang,,32539.0,39775.0,48510.0
+NP0105407,Jahada,Morang,,,41819.0,47639.0
+NP0105408,Dhanapalthan,Morang,Dhanpalthan,35217.0,39470.0,45348.0
+NP0106201,Dharan,Sunsari,,114571.0,141439.0,166531.0
+NP0106202,Itahari,Sunsari,,90364.0,143786.0,197241.0
+NP0106301,Barahachhetra,Sunsari,,,,
+NP0106302,Ramdhuni,Sunsari,,,52328.0,63452.0
+NP0106303,Inaruwa,Sunsari,,,64749.0,74914.0
+NP0106304,Duhabi,Sunsari,,49008.0,56573.0,66074.0
+NP0106401,Koshi,Sunsari,,35811.0,43987.0,48804.0
+NP0106402,Bhokraha Narsingh,Sunsari,Bhokraha,33928.0,40636.0,49280.0
+NP0106403,Gadhi,Sunsari,,32498.0,34852.0,38739.0
+NP0106404,Harinagar,Sunsari,Harinagara,36190.0,41070.0,49845.0
+NP0106405,Dewangunj,Sunsari,Dewanganj,31222.0,35283.0,39030.0
+NP0106406,Barju,Sunsari,,27908.0,31180.0,36249.0
+NP0106595,Koshi Tappu,Sunsari,Koshi,35811.0,43987.0,48804.0
+NP0107301,Mahalaxmi,Dhankuta,,26324.0,24800.0,22182.0
+NP0107302,Pakhribas,Dhankuta,,24273.0,22078.0,19104.0
+NP0107303,Dhankuta,Dhankuta,,30994.0,38629.0,35983.0
+NP0107401,Shahidbhumi,Dhankuta,,,,
+NP0107402,Chhathar Jorpati,Dhankuta,,19693.0,18322.0,16456.0
+NP0107403,Sangurigadhi,Dhankuta,,23080.0,21537.0,19561.0
+NP0107404,Chaubise,Dhankuta,,21794.0,19283.0,17677.0
+NP0108301,Laligurans,Terhathum,,,,
+NP0108302,Myanglung,Terhathum,,,,
+NP0108401,Menchhayayem,Terhathum,,,,
+NP0108402,Phedap,Terhathum,,,,
+NP0108403,Aatharai,Terhathum,,,,
+NP0108404,Chhathar,Terhathum,,,,
+NP0109301,Khandabari,Sankhuwasabha,Khandbari,26756.0,31534.0,35565.0
+NP0109302,Panchakhapan,Sankhuwasabha,Panchkhapan,17926.0,17521.0,16348.0
+NP0109303,Chainapur,Sankhuwasabha,Chainpur,28294.0,27462.0,26799.0
+NP0109304,Dharmadevi,Sankhuwasabha,,19310.0,18235.0,16053.0
+NP0109305,Madi,Sankhuwasabha,,15959.0,14473.0,13273.0
+NP0109401,Makalu,Sankhuwasabha,,,13572.0,13424.0
+NP0109402,Bhotkhola,Sankhuwasabha,,,6576.0,6438.0
+NP0109403,Silichong,Sankhuwasabha,,,11812.0,10296.0
+NP0109404,Chichila,Sankhuwasabha,,7188.0,7065.0,6577.0
+NP0109405,Sabhapokhari,Sankhuwasabha,Savahapokhari,11231.0,10492.0,9970.0
+NP0110301,Shadananda,Bhojpur,,33560.0,31612.0,29342.0
+NP0110302,Bhojpur,Bhojpur,,,28107.0,26007.0
+NP0110401,Salpa Silichho,Bhojpur,,13870.0,13111.0,12284.0
+NP0110402,Temkemaiyum,Bhojpur,Tyamkemaiyung,22027.0,18233.0,15464.0
+NP0110403,Arun,Bhojpur,,19574.0,17768.0,14591.0
+NP0110404,Ramprasad Rai,Bhojpur,,21493.0,18894.0,15673.0
+NP0110405,Pauwa Dunma,Bhojpur,Pauwadungma,17976.0,15414.0,12107.0
+NP0110406,Aamchowk,Bhojpur,Aamchok,20753.0,18777.0,14968.0
+NP0110407,Hatuwagadhi,Bhojpur,,24252.0,20543.0,16175.0
+NP0111301,Solu Dhudhakunda,Solukhumbu,Solududhkunda,,20977.0,25678.0
+NP0111401,Khumbu Pasanglhamu,Solukhumbu,,,9133.0,8720.0
+NP0111402,Mahakulung,Solukhumbu,,,11452.0,11847.0
+NP0111403,Likhu Pike,Solukhumbu,,,5534.0,5334.0
+NP0111404,Mapya Dudhkoshi,Solukhumbu,Dudhkoshi,,13420.0,12648.0
+NP0111405,Necha Salyan,Solukhumbu,,17366.0,16149.0,11381.0
+NP0111406,Thulung Dudhkoshi,Solukhumbu,,20938.0,19691.0,18354.0
+NP0111407,Sotang,Solukhumbu,,,9530.0,9025.0
+NP0112301,Halesi Tuwachung,Khotang,,30863.0,29575.0,27078.0
+NP0112302,Diktel Rupakot Majhuwagadhi,Khotang,,50942.0,47860.0,43008.0
+NP0112401,Aiselukharka,Khotang,,18648.0,16098.0,13217.0
+NP0112402,Kepilasgadhi,Khotang,,,16071.0,13231.0
+NP0112403,Rawa Besi,Khotang,Rawa Besi [Lamidanda],15340.0,13369.0,11199.0
+NP0112404,Diprung Chuichumma,Khotang,,,,
+NP0112405,Sakela,Khotang,,14185.0,11594.0,9623.0
+NP0112406,Khotehang,Khotang,,26327.0,22485.0,16846.0
+NP0112407,Baraha Pokhari,Khotang,,15033.0,14349.0,11397.0
+NP0112408,Jante Dhunga,Khotang,,17881.0,15519.0,12016.0
+NP0113301,Siddhicharan,Okhaldhunga,,,28844.0,27351.0
+NP0113401,Khiji Demba,Okhaldhunga,,,15291.0,15559.0
+NP0113402,Likhu,Okhaldhunga,,,14057.0,12104.0
+NP0113403,Molung,Okhaldhunga,,,16274.0,16440.0
+NP0113404,Champadevi,Okhaldhunga,,19058.0,18661.0,16311.0
+NP0113405,Sunkoshi,Okhaldhunga,,19431.0,18558.0,17783.0
+NP0113406,Chishankhu Gadhi,Okhaldhunga,,17978.0,15206.0,13844.0
+NP0113407,Manebhanjyang,Okhaldhunga,,22094.0,21093.0,19597.0
+NP0114301,Katari,Udayapur,,50505.0,56545.0,59507.0
+NP0114302,Triyuga,Udayapur,,71131.0,88967.0,102725.0
+NP0114303,Chaudandigadhi,Udayapur,,45023.0,48750.0,53631.0
+NP0114304,Belaka,Udayapur,,38727.0,42450.0,51043.0
+NP0114401,Tapli,Udayapur,,14643.0,14567.0,13344.0
+NP0114402,Limchunbung,Udayapur,Limchungbung [Sunkoshi],13800.0,11992.0,9689.0
+NP0114403,Udayapurgadhi,Udayapur,,29741.0,30780.0,28926.0
+NP0114404,Rautamai,Udayapur,,23113.0,23481.0,20324.0
+NP0114595,Koshi Tappu,Udayapur,,,,
+NP0215301,Surunga,Saptari,,,44222.0,49460.0
+NP0215302,Khadak,Saptari,,,45428.0,52778.0
+NP0215303,Shambhunath,Saptari,,30746.0,35222.0,39634.0
+NP0215304,Saptakoshi,Saptari,,19197.0,21237.0,23510.0
+NP0215305,Kanchanrup,Saptari,,47099.0,53366.0,58466.0
+NP0215306,Bode Barsain,Saptari,,,43293.0,46017.0
+NP0215307,Dakneshwori,Saptari,,39258.0,42833.0,47739.0
+NP0215308,Rajbiraj,Saptari,,,68899.0,70803.0
+NP0215309,Hanumannagar Kankalini,Saptari,,39199.0,45840.0,52796.0
+NP0215401,Rupani,Saptari,,,26490.0,29877.0
+NP0215402,Agnisair Krishna Sabaran,Saptari,Agnisair Krishnasawaran,,27129.0,31634.0
+NP0215403,Tirahut,Saptari,Tirhut,20780.0,22037.0,24034.0
+NP0215404,Balan-Bihul,Saptari,,,21842.0,23527.0
+NP0215405,Mahadewa,Saptari,Mahadeva,25419.0,28542.0,30315.0
+NP0215406,Rajgadh,Saptari,,,,
+NP0215407,Bishnupur,Saptari,,,23166.0,27703.0
+NP0215408,Chhinnamasta,Saptari,,25054.0,28437.0,29946.0
+NP0215409,Tilathi Koiladi,Saptari,,,31803.0,33658.0
+NP0215595,Koshi Tappu,Saptari,,,,
+NP0216301,Karjanha,Siraha,,26346.0,31357.0,38557.0
+NP0216302,Mirchaiya,Siraha,,,49131.0,59425.0
+NP0216303,Golbazar,Siraha,,47208.0,52137.0,63885.0
+NP0216304,Dhangadhimai,Siraha,,42337.0,47449.0,53355.0
+NP0216305,Lahan,Siraha,,81918.0,92040.0,102031.0
+NP0216306,Kalyanpur,Siraha,,45812.0,49344.0,58872.0
+NP0216307,Sukhipur,Siraha,,34771.0,37027.0,42033.0
+NP0216308,Siraha,Siraha,,75171.0,82920.0,95410.0
+NP0216401,Naraha,Siraha,,16834.0,19369.0,22760.0
+NP0216402,Bishnupur,Siraha,,17144.0,18543.0,22781.0
+NP0216403,Arnama,Siraha,,21158.0,22912.0,27899.0
+NP0216404,Aurahi,Siraha,,21629.0,23084.0,26478.0
+NP0216405,Bariyarpatti,Siraha,,22317.0,25313.0,29712.0
+NP0216406,Laxmipur Patari,Siraha,Laksmipur Patari,,28073.0,31118.0
+NP0216407,Nawarajpur,Siraha,,16636.0,19056.0,20788.0
+NP0216408,Sakhuwa Nankarkatti,Siraha,,16778.0,18574.0,20844.0
+NP0216409,Bhagawanpur,Siraha,Bhagwanpur,17468.0,20999.0,23380.0
+NP0217201,Janakpurdham,Dhanusa,Janakpur,,162842.0,194556.0
+NP0217301,Mithila,Dhanusa,,,45227.0,48676.0
+NP0217302,Ganeshman Charnath,Dhanusa,,,36338.0,44082.0
+NP0217303,Chhireshwornath,Dhanusa,Chhireshwarnath,,42155.0,51075.0
+NP0217304,Dhanushadham,Dhanusa,,,45585.0,52024.0
+NP0217305,Mithila Bihari,Dhanusa,,,33556.0,38273.0
+NP0217306,Sabaila,Dhanusa,,,52389.0,62282.0
+NP0217307,Hansapur,Dhanusa,,,38216.0,44949.0
+NP0217308,Shahidnagar,Dhanusa,,,47422.0,53812.0
+NP0217309,Nagarain,Dhanusa,Nagrain,33485.0,35583.0,38037.0
+NP0217310,Bideha,Dhanusa,Bidehi,31266.0,32266.0,37697.0
+NP0217311,Kamala,Dhanusa,,37723.0,38624.0,44597.0
+NP0217401,Bateshwor,Dhanusa,Bateshwar,18405.0,21530.0,21742.0
+NP0217402,Laxminiya,Dhanusa,Lakshminiya,26095.0,28251.0,31881.0
+NP0217403,Aurahi,Dhanusa,,20963.0,22578.0,24053.0
+NP0217404,Dhanauji,Dhanusa,,18964.0,21395.0,21942.0
+NP0217405,Mukhiyapatti Musaharmiya,Dhanusa,Mukhiyapatti Musharmiya,,25482.0,28208.0
+NP0217406,Janak Nandini,Dhanusa,,23716.0,25338.0,28208.0
+NP0218301,Bardibas,Mahottari,,57008.0,64721.0,74361.0
+NP0218302,Gaushala,Mahottari,,56182.0,66715.0,72481.0
+NP0218303,Aurahi,Mahottari,,,31851.0,37361.0
+NP0218304,Bhangaha,Mahottari,,42612.0,46832.0,55354.0
+NP0218305,Ram Gopalpur,Mahottari,,,30412.0,36201.0
+NP0218306,Manara Shisawa,Mahottari,Manra Shisawa,44263.0,49692.0,52191.0
+NP0218307,Balawa,Mahottari,Balwa,38863.0,42368.0,49473.0
+NP0218308,Loharpatti,Mahottari,,36884.0,39883.0,45773.0
+NP0218309,Jaleshwor,Mahottari,Jaleshwar,51838.0,59261.0,63802.0
+NP0218310,Matihani,Mahottari,,26542.0,31026.0,36136.0
+NP0218401,Sonama,Mahottari,Sonma,31925.0,38747.0,43082.0
+NP0218402,Samsi,Mahottari,,29451.0,33803.0,38585.0
+NP0218403,Ekadara,Mahottari,Ekdara,25195.0,29315.0,31770.0
+NP0218404,Mahottari,Mahottari,,26343.0,27430.0,28807.0
+NP0218405,Pipara,Mahottari,Pipra,32874.0,35524.0,40535.0
+NP0219301,Bagmati,Sarlahi,,,40399.0,47106.0
+NP0219302,Hariwan,Sarlahi,,,43924.0,49988.0
+NP0219303,Lalbandi,Sarlahi,,51448.0,59628.0,66419.0
+NP0219304,Barahathawa,Sarlahi,Barhathawa,,69822.0,81120.0
+NP0219305,Haripur,Sarlahi,,,37445.0,43233.0
+NP0219306,Ishworpur,Sarlahi,,51243.0,60000.0,68377.0
+NP0219307,Kabilashi,Sarlahi,Kawilasi,34495.0,42336.0,44204.0
+NP0219308,Godaita,Sarlahi,,39130.0,47687.0,54270.0
+NP0219309,Malangawa,Sarlahi,Malangwa,36380.0,46557.0,54550.0
+NP0219310,Haripurwa,Sarlahi,,,36042.0,38714.0
+NP0219311,Balara,Sarlahi,Balra,,45194.0,47912.0
+NP0219401,Basbariya,Sarlahi,,18872.0,23568.0,25905.0
+NP0219402,Chandranagar,Sarlahi,,26179.0,33345.0,36908.0
+NP0219403,Dhanakaul,Sarlahi,Dhankaul,,24788.0,27974.0
+NP0219404,Chakraghatta,Sarlahi,,22951.0,27952.0,29550.0
+NP0219405,Ramnagar,Sarlahi,,,28727.0,31366.0
+NP0219406,Kaudena,Sarlahi,,21182.0,26085.0,28702.0
+NP0219407,Brahmapuri,Sarlahi,,24905.0,29832.0,31378.0
+NP0219408,Bishnu,Sarlahi,,,24748.0,28570.0
+NP0219409,Parsa,Sarlahi,,16905.0,21650.0,24005.0
+NP0232301,Gujara,Rautahat,,41483.0,46618.0,54033.0
+NP0232302,Chandrapur,Rautahat,,57647.0,72085.0,81807.0
+NP0232303,Phatuwa Bijayapur,Rautahat,,24548.0,36308.0,42218.0
+NP0232304,Katahariya,Rautahat,,29642.0,38412.0,45821.0
+NP0232305,Brindaban,Rautahat,Brindawan,32092.0,42770.0,49742.0
+NP0232306,Maulapur,Rautahat,,20436.0,26424.0,32325.0
+NP0232307,Dewahi Gonahi,Rautahat,,25408.0,32143.0,38690.0
+NP0232308,Garuda,Rautahat,,38361.0,50506.0,60857.0
+NP0232309,Gadhimai,Rautahat,,33327.0,40410.0,49135.0
+NP0232310,Boudhimai,Rautahat,Baudhimai,26300.0,33265.0,39325.0
+NP0232311,Madhav Narayan,Rautahat,,29919.0,35175.0,40894.0
+NP0232312,Paroha,Rautahat,,29449.0,37453.0,45702.0
+NP0232313,Ishanath,Rautahat,,34277.0,41435.0,51855.0
+NP0232314,Rajpur,Rautahat,,32782.0,41136.0,54083.0
+NP0232315,Gaur,Rautahat,,25383.0,35370.0,39846.0
+NP0232316,Rajdevi,Rautahat,,,30629.0,35658.0
+NP0232401,Yamunamai,Rautahat,,,23884.0,28414.0
+NP0232402,Durga Bhagawati,Rautahat,Durga Bhagwati,19301.0,22699.0,22864.0
+NP0233201,Jitpur Simara,Bara,,,118398.0,127307.0
+NP0233202,Kalaiya,Bara,,,123575.0,136222.0
+NP0233301,Nijagadh,Bara,Nijgadh,30693.0,35403.0,37687.0
+NP0233302,Kolhabi,Bara,,40213.0,44082.0,51182.0
+NP0233303,Mahagadhimai,Bara,,,52396.0,59424.0
+NP0233304,Pacharauta,Bara,Pachrauta,,34194.0,40524.0
+NP0233305,Simroungadh,Bara,Simraungadh,,48570.0,54878.0
+NP0233401,Parawanipur,Bara,,,22787.0,24745.0
+NP0233402,Prasauni,Bara,,,25049.0,25414.0
+NP0233403,Karaiyamai,Bara,,,26496.0,29165.0
+NP0233404,Bishrampur,Bara,,18912.0,23814.0,24892.0
+NP0233405,Pheta,Bara,,,25653.0,28395.0
+NP0233406,Baragadhi,Bara,,,27191.0,29555.0
+NP0233407,Devtal,Bara,,,23011.0,25361.0
+NP0233408,Subarna,Bara,Suwarna,,29537.0,35141.0
+NP0233409,Aadarsha Kotwal,Bara,Adarsha Kotwal,21590.0,27552.0,31364.0
+NP0233595,Parsa,Bara,Prasauni,,25049.0,25414.0
+NP0234101,Birgunj,Parsa,,194960.0,244086.0,272382.0
+NP0234301,Pokhariya,Parsa,,,32885.0,37675.0
+NP0234302,Bahudarmai,Parsa,,32007.0,39673.0,43478.0
+NP0234303,Parsagadhi,Parsa,,31948.0,38607.0,41569.0
+NP0234401,Thori,Parsa,,20651.0,20397.0,17219.0
+NP0234402,Jirabhawani,Parsa,,19876.0,22765.0,22677.0
+NP0234403,Paterwa Sugauli,Parsa,,19894.0,23917.0,25498.0
+NP0234404,Sakhuwa Prasauni,Parsa,,28040.0,33092.0,35399.0
+NP0234405,Jagarnathpur,Parsa,,,32674.0,32649.0
+NP0234406,Dhobini,Parsa,,,19911.0,22606.0
+NP0234407,Chhipaharmai,Parsa,Chhipahrmai,21939.0,26684.0,29082.0
+NP0234408,Kalikamai,Parsa,,17225.0,21141.0,23480.0
+NP0234409,Pakaha Mainpur,Parsa,,17081.0,20717.0,22585.0
+NP0234410,Bindabasini,Parsa,,19556.0,24468.0,24991.0
+NP0234595,Parsa,Parsa,Parsagadhi,31948.0,38607.0,41569.0
+NP0234597,Chitawan,Parsa,,,,
+NP0320301,Kamalamai,Sindhuli,,58485.0,66391.0,71016.0
+NP0320302,Dudhouli,Sindhuli,Dudhauli,59545.0,65644.0,70207.0
+NP0320401,Hariharpurgaghi,Sindhuli,Hariharpurgadhi,26214.0,27727.0,26505.0
+NP0320402,Marin,Sindhuli,,25108.0,27822.0,28808.0
+NP0320403,Ghyanglekha,Sindhuli,Ghyanglekh,13781.0,13761.0,12652.0
+NP0320404,Sunkoshi,Sindhuli,,,21969.0,18375.0
+NP0320405,Golanjor,Sindhuli,,19184.0,19490.0,18737.0
+NP0320406,Tinpatan,Sindhuli,,34801.0,36420.0,34889.0
+NP0320407,Phikkal,Sindhuli,,16788.0,16968.0,15910.0
+NP0321301,Manthali,Ramechhap,,45048.0,45614.0,39695.0
+NP0321302,Ramechhap,Ramechhap,,30163.0,29469.0,24971.0
+NP0321401,Sunapati,Ramechhap,,,18148.0,14658.0
+NP0321402,Doramba,Ramechhap,,,22773.0,17686.0
+NP0321403,Gokulganga,Ramechhap,,20700.0,20074.0,17798.0
+NP0321404,Umakunda,Ramechhap,,17937.0,17647.0,16590.0
+NP0321405,Khandadevi,Ramechhap,,27343.0,25786.0,19312.0
+NP0321406,Likhu Tamakoshi,Ramechhap,,,,
+NP0322301,Bhimeshwor,Dolakha,Bhimeshwar,33677.0,33324.0,34712.0
+NP0322302,Jiri,Dolakha,,,15837.0,16109.0
+NP0322401,Bigu,Dolakha,,18536.0,18592.0,16490.0
+NP0322402,Gaurishankar,Dolakha,,18626.0,17140.0,15995.0
+NP0322403,Kalinchowk,Dolakha,Kalinchok,23274.0,22954.0,21097.0
+NP0322404,Baiteshwor,Dolakha,Baiteshwar,21826.0,19876.0,17896.0
+NP0322405,Shailung,Dolakha,,19561.0,19698.0,17923.0
+NP0322406,Melung,Dolakha,,18043.0,20287.0,15893.0
+NP0322407,Tamakoshi,Dolakha,,20214.0,18849.0,15163.0
+NP0323301,Melamchi,Sindhupalchok,,,,
+NP0323302,Choutara Sangachowkgadhi,Sindhupalchok,,,,
+NP0323303,Bahrabise,Sindhupalchok,,,,
+NP0323401,Helambu,Sindhupalchok,,,,
+NP0323402,Panchpokhari Thangpal,Sindhupalchok,,,,
+NP0323403,Jugal,Sindhupalchok,,,,
+NP0323404,Bhotekoshi,Sindhupalchok,,,,
+NP0323405,Indrawoti,Sindhupalchok,,,,
+NP0323406,Balephi,Sindhupalchok,,,,
+NP0323407,Sunkoshi,Sindhupalchok,,,,
+NP0323408,Tripurasundari,Sindhupalchok,,,,
+NP0323409,Lisankhu Pakhar,Sindhupalchok,,,,
+NP0324301,Mandan Deupur,Kavrepalanchok,,,32768.0,30381.0
+NP0324302,Banepa,Kavrepalanchok,,,57722.0,67690.0
+NP0324303,Dhulikhel,Kavrepalanchok,,,33981.0,33726.0
+NP0324304,Panchkhal,Kavrepalanchok,,,39788.0,35521.0
+NP0324305,Panauti,Kavrepalanchok,,,47549.0,51504.0
+NP0324306,Namobuddha,Kavrepalanchok,,32489.0,29926.0,26160.0
+NP0324401,Bhumlu,Kavrepalanchok,,,19298.0,15678.0
+NP0324402,Chauri Deurali,Kavrepalanchok,,27113.0,21130.0,14076.0
+NP0324403,Bethanchowk,Kavrepalanchok,Bethanchok,,15622.0,14959.0
+NP0324404,Roshi,Kavrepalanchok,,30180.0,28760.0,23790.0
+NP0324405,Temal,Kavrepalanchok,,26362.0,22712.0,16957.0
+NP0324406,Khanikhola,Kavrepalanchok,,14190.0,14398.0,12201.0
+NP0324407,Mahabharat,Kavrepalanchok,,18097.0,18283.0,16079.0
+NP0325101,Lalitpur,Lalitpur,,200020.0,292848.0,294098.0
+NP0325301,Godawari,Lalitpur,,66240.0,80376.0,97633.0
+NP0325302,Mahalaxmi,Lalitpur,,35802.0,62624.0,123116.0
+NP0325401,Bagmati,Lalitpur,,14155.0,13049.0,11353.0
+NP0325402,Konjyosom,Lalitpur,,9871.0,9709.0,8989.0
+NP0325403,Mahankal,Lalitpur,,10539.0,9526.0,8122.0
+NP0326301,Madhyapur Thimi,Bhaktapur,,47751.0,84142.0,119756.0
+NP0326302,Changunarayan,Bhaktapur,,,58006.0,88083.0
+NP0326303,Bhaktapur,Bhaktapur,,72543.0,83658.0,79136.0
+NP0326304,Suryabinayak,Bhaktapur,,55744.0,78845.0,140085.0
+NP0327101,Kathmandu,Kathmandu,,671846.0,1003285.0,862400.0
+NP0327301,Tarakeshwor,Kathmandu,Tarakeshwar,37268.0,82060.0,151479.0
+NP0327302,Tokha,Kathmandu,,42308.0,100780.0,133755.0
+NP0327303,Budhanilkhantha,Kathmandu,Budhanilkantha,,112281.0,177557.0
+NP0327304,Gokarneshwor,Kathmandu,Gokarneshwar,57698.0,110452.0,149366.0
+NP0327305,Nagarjun,Kathmandu,,33055.0,68863.0,115437.0
+NP0327306,Kageshwori Manahara,Kathmandu,Kageshwari Manohara,32077.0,60553.0,130433.0
+NP0327307,Shankharapur,Kathmandu,,24260.0,25558.0,29318.0
+NP0327308,Chandragiri,Kathmandu,,55032.0,87553.0,136860.0
+NP0327309,Kirtipur,Kathmandu,,40835.0,67171.0,81578.0
+NP0327310,Dakshinkali,Kathmandu,,,25684.0,26372.0
+NP0328301,Bidur,Nuwakot,,,55650.0,59227.0
+NP0328302,Belkotgadhi,Nuwakot,,,40706.0,35224.0
+NP0328401,Myagang,Nuwakot,Meghang,15194.0,13484.0,12668.0
+NP0328402,Kispang,Nuwakot,,15578.0,14861.0,14235.0
+NP0328403,Tarakeshwor,Nuwakot,Tarkeshwar,,15719.0,14184.0
+NP0328404,Suryagadhi,Nuwakot,,17328.0,16800.0,14919.0
+NP0328405,Tadi,Nuwakot,,18785.0,17942.0,15933.0
+NP0328406,Likhu,Nuwakot,,,16966.0,17728.0
+NP0328407,Panchakanya,Nuwakot,Panchkanya,,15945.0,13818.0
+NP0328408,Dupcheshwor,Nuwakot,Dupcheshwar,21110.0,22106.0,21005.0
+NP0328409,Kakani,Nuwakot,,,26509.0,24504.0
+NP0328410,Shivapuri,Nuwakot,,25119.0,20783.0,17203.0
+NP0328596,Shivapuri,Nuwakot,,25119.0,20783.0,17203.0
+NP0328597,Langtang,Nuwakot,,,,
+NP0329401,Aamachhodingmo,Rasuwa,Aamachhodingmo [Parbatikunda],,5533.0,6673.0
+NP0329402,Gosaikunda,Rasuwa,,,8134.0,7788.0
+NP0329403,Uttargaya,Rasuwa,,,8298.0,8555.0
+NP0329404,Kalika,Rasuwa,,,9502.0,10115.0
+NP0329405,Naukunda,Rasuwa,,,11833.0,12344.0
+NP0330301,Nilkhantha,Dhading,Nilkantha,55696.0,58876.0,58828.0
+NP0330302,Dhunibenshi,Dhading,Dhunibeshi,31029.0,31029.0,29149.0
+NP0330401,Rubi Valley,Dhading,Rubi Bhyali [Rubi Valley],10376.0,9562.0,10781.0
+NP0330402,Ganga Jamuna,Dhading,,25591.0,21784.0,19265.0
+NP0330403,Khaniyabas,Dhading,,13530.0,12749.0,10287.0
+NP0330404,Tripurasundari,Dhading,,25096.0,22992.0,21937.0
+NP0330405,Netrawati Dabjong,Dhading,,15699.0,12870.0,11310.0
+NP0330406,Jwalamukhi,Dhading,,26225.0,23966.0,21338.0
+NP0330407,Siddhalek,Dhading,,24594.0,23729.0,22214.0
+NP0330408,Benighat Rorang,Dhading,,27699.0,31475.0,33854.0
+NP0330409,Gajuri,Dhading,,,27841.0,28634.0
+NP0330410,Galchhi,Dhading,,,26215.0,23733.0
+NP0330411,Thakre,Dhading,,,32979.0,32374.0
+NP0331201,Hetauda,Makwanpur,,129872.0,154660.0,193576.0
+NP0331301,Thaha,Makwanpur,,42230.0,42122.0,38870.0
+NP0331401,Manahari,Makwanpur,,,39122.0,47353.0
+NP0331402,Raksirang,Makwanpur,,25675.0,26192.0,25996.0
+NP0331403,Kailash,Makwanpur,,,23922.0,21856.0
+NP0331404,Bhimphedi,Makwanpur,,,24960.0,21516.0
+NP0331405,Indrasarowar,Makwanpur,,15325.0,13891.0,13534.0
+NP0331406,Makawanpurgadhi,Makwanpur,,26959.0,25379.0,24461.0
+NP0331407,Bakaiya,Makwanpur,,39846.0,39642.0,40907.0
+NP0331408,Bagmati,Makwanpur,,30677.0,30587.0,30425.0
+NP0331595,Parsa,Makwanpur,,,,
+NP0331597,Chitawan,Makwanpur,,,,
+NP0335101,Bharatpur,Chitawan,,,,
+NP0335301,Kalika,Chitawan,,,,
+NP0335302,Ratnanagar,Chitawan,,,,
+NP0335303,Khairahani,Chitawan,,,,
+NP0335304,Rapti,Chitawan,,,,
+NP0335305,Madi,Chitawan,,,,
+NP0335401,Ichchha Kamana,Chitawan,,,,
+NP0335597,Chitawan,Chitawan,,,,
+NP0436301,Palungtar,Gorkha,,42117.0,38244.0,37409.0
+NP0436302,Gorkha,Gorkha,,44433.0,50684.0,52468.0
+NP0436401,Chumanubri,Gorkha,Chumanuwri,,7417.0,5932.0
+NP0436402,Ajirkot,Gorkha,,17737.0,15602.0,12832.0
+NP0436403,Barpak Sulikot,Gorkha,Sulikot,27415.0,25399.0,22636.0
+NP0436404,Dharche,Gorkha,,13553.0,13264.0,14263.0
+NP0436405,Siranchowk,Gorkha,Siranchok,28010.0,23666.0,19719.0
+NP0436406,Aarughat,Gorkha,,24337.0,23915.0,21572.0
+NP0436407,Bhimsenthapa,Gorkha,Bhimsen,24885.0,22053.0,16986.0
+NP0436408,Shahid Lakhan,Gorkha,,31649.0,27555.0,23076.0
+NP0436409,Gandaki,Gorkha,,25122.0,23262.0,21394.0
+NP0437301,Madhya Nepal,Lamjung,,25675.0,23474.0,21971.0
+NP0437302,Bensishahar,Lamjung,Besishahar,,40599.0,38232.0
+NP0437303,Sundarbazar,Lamjung,,26890.0,27019.0,27043.0
+NP0437304,Rainas,Lamjung,,20161.0,18527.0,17402.0
+NP0437401,Kwhola Sothar,Lamjung,,,10067.0,7960.0
+NP0437402,Marshyangdi,Lamjung,Marsyangdi,20475.0,18811.0,17080.0
+NP0437403,Dordi,Lamjung,,,18252.0,16050.0
+NP0437404,Dudhapokhari,Lamjung,Dudhpokhari,13814.0,10975.0,8592.0
+NP0438401,Ngisyang,Manang,,,,
+NP0438402,Narpa Bhumi,Manang,Narpa Bhumi [Narphu],,554.0,396.0
+NP0438403,Chame,Manang,,,1476.0,1276.0
+NP0438404,Nason,Manang,Nasong,,2094.0,1671.0
+NP0439101,Pokhara,Kaski,,283137.0,413934.0,513504.0
+NP0439401,Annapurna,Kaski,,,23565.0,22099.0
+NP0439402,Machhapuchchhre,Kaski,,24765.0,21920.0,22898.0
+NP0439403,Madi,Kaski,,,18153.0,16142.0
+NP0439404,Rupa,Kaski,,,14526.0,14891.0
+NP0440301,Shuklagandaki,Tanahu,,,,
+NP0440302,Byas,Tanahu,,,,
+NP0440303,Bhanu,Tanahu,,,,
+NP0440304,Bhimad,Tanahu,,,,
+NP0440401,Myagde,Tanahu,,,,
+NP0440402,Ghiring,Tanahu,,,,
+NP0440403,Rhishing,Tanahu,,,,
+NP0440404,Bandipur,Tanahu,,,,
+NP0440405,Aanbu Khaireni,Tanahu,,,,
+NP0440406,Devghat,Tanahu,,,,
+NP0441301,Putalibazar,Syangja,,,45510.0,41743.0
+NP0441302,Bhirkot,Syangja,,,25584.0,22645.0
+NP0441303,Galyang,Syangja,,,37821.0,31034.0
+NP0441304,Walling,Syangja,Waling,,51437.0,50488.0
+NP0441305,Chapakot,Syangja,,29400.0,26101.0,22969.0
+NP0441401,Aandhikhola,Syangja,,,16595.0,13094.0
+NP0441402,Phedikhola,Syangja,,13885.0,12341.0,10899.0
+NP0441403,Arjun Choupari,Syangja,Arjunchaupari,,16179.0,14045.0
+NP0441404,Biruwa,Syangja,,,18413.0,14001.0
+NP0441405,Harinas,Syangja,,,17343.0,13191.0
+NP0441406,Kaligandaki,Syangja,,26598.0,21824.0,17955.0
+NP0442301,Kushma,Parbat,,38475.0,40374.0,38101.0
+NP0442302,Phalebas,Parbat,Phalewas,,24729.0,20468.0
+NP0442401,Jaljala,Parbat,,21547.0,21527.0,21119.0
+NP0442402,Modi,Parbat,,24274.0,21312.0,18794.0
+NP0442403,Bihadi,Parbat,,15377.0,13409.0,10828.0
+NP0442404,Mahashila,Parbat,,,9858.0,8116.0
+NP0442405,Paiyu,Parbat,Paiyun,17073.0,15381.0,12725.0
+NP0443301,Dhorpatan,Baglung,,,26438.0,30068.0
+NP0443302,Galkot,Baglung,,35893.0,33330.0,30588.0
+NP0443303,Baglung,Baglung,,,59192.0,56102.0
+NP0443304,Jaimuni,Baglung,Jaimini,36392.0,32069.0,24628.0
+NP0443401,Nisikhola,Baglung,,,23325.0,23119.0
+NP0443402,Tamankhola,Baglung,,11103.0,10659.0,9982.0
+NP0443403,Badigad,Baglung,,29618.0,30906.0,28839.0
+NP0443404,Tarakhola,Baglung,,12754.0,12009.0,10120.0
+NP0443405,Kathekhola,Baglung,,,26174.0,22526.0
+NP0443406,Bareng,Baglung,,16678.0,14511.0,11158.0
+NP0443598,Dhorpatan,Baglung,,,26438.0,30068.0
+NP0444301,Beni,Myagdi,,,34878.0,32697.0
+NP0444401,Dhawalagiri,Myagdi,Dhaulagiri,14754.0,14112.0,12616.0
+NP0444402,Raghuganga,Myagdi,,17984.0,15772.0,14114.0
+NP0444403,Annapurna,Myagdi,,,13337.0,12323.0
+NP0444404,Malika,Myagdi,,,19208.0,18332.0
+NP0444405,Mangala,Myagdi,,,16334.0,14688.0
+NP0444598,Dhorpatan,Myagdi,,,,
+NP0445401,Lomanthang,Mustang,,,2350.0,1430.0
+NP0445402,Lo Ghekar Damodarkunda,Mustang,Lo-Ghekar Damodarkunda [Dalome],,1569.0,1292.0
+NP0445403,Varagung Muktichhetra,Mustang,Varagung Muktikshetra,,2704.0,2036.0
+NP0445404,Gharpajhong,Mustang,Gharapjhong,,3736.0,3712.0
+NP0445405,Thasang,Mustang,,,3093.0,2856.0
+NP0447301,Madhya Bindu,Nawalparasi East,,,,
+NP0447302,Kawasoti,Nawalparasi East,,,,
+NP0447303,Devchuli,Nawalparasi East,,,,
+NP0447304,Gaidakot,Nawalparasi East,,,,
+NP0447401,Baudikali,Nawalparasi East,,,,
+NP0447402,Bulingtar,Nawalparasi East,,,,
+NP0447403,Hupsekot,Nawalparasi East,,,,
+NP0447404,Binayi Tribeni,Nawalparasi East,,,,
+NP0447597,Chitawan,Nawalparasi East,,,,
+NP0546301,Tansen,Palpa,,,52538.0,50792.0
+NP0546302,Rampur,Palpa,,33480.0,35504.0,40883.0
+NP0546401,Rainadevi Chhahara,Palpa,,28629.0,26469.0,23149.0
+NP0546402,Tinau,Palpa,,19163.0,19130.0,17777.0
+NP0546403,Ribdikot,Palpa,,21678.0,18770.0,15473.0
+NP0546404,Mathagadhi,Palpa,,25999.0,25017.0,24053.0
+NP0546405,Baganaskali,Palpa,Bagnaskali,,21361.0,18497.0
+NP0546406,Purbakhola,Palpa,,,19590.0,16052.0
+NP0546407,Rambha,Palpa,,,20190.0,17155.0
+NP0546408,Nisdi,Palpa,,23912.0,22611.0,18120.0
+NP0547301,Sunawal,Nawalparasi West,,,,
+NP0547302,Bardaghat,Nawalparasi West,,,,
+NP0547303,Ramgram,Nawalparasi West,,,,
+NP0547401,Palhinandan,Nawalparasi West,,,,
+NP0547402,Sarawal,Nawalparasi West,,,,
+NP0547403,Pratapapur,Nawalparasi West,,,,
+NP0547404,Susta,Nawalparasi West,,,,
+NP0548201,Butwal,Rupandehi,,91252.0,141262.0,194335.0
+NP0548301,Sainamaina,Rupandehi,,44591.0,57077.0,78393.0
+NP0548302,Devdaha,Rupandehi,,44639.0,53636.0,72457.0
+NP0548303,Tilottama,Rupandehi,,,100438.0,149479.0
+NP0548304,Lumbini Sanskritik,Rupandehi,,61155.0,72647.0,87383.0
+NP0548305,Siddharthanagar,Rupandehi,,52569.0,64566.0,74436.0
+NP0548401,Kanchan,Rupandehi,,30434.0,33082.0,42528.0
+NP0548402,Suddhodhan,Rupandehi,Shuddhodhan,29902.0,34638.0,41907.0
+NP0548403,Gaidahawa,Rupandehi,,40870.0,47624.0,56149.0
+NP0548404,Siyari,Rupandehi,,33258.0,38507.0,44985.0
+NP0548405,Mayadevi,Rupandehi,,38647.0,47174.0,56170.0
+NP0548406,Om Satiya,Rupandehi,,,34226.0,41141.0
+NP0548407,Rohini,Rupandehi,,33399.0,37217.0,43327.0
+NP0548408,Kotahimai,Rupandehi,,34859.0,41006.0,45975.0
+NP0548409,Sammarimai,Rupandehi,,32141.0,38313.0,43044.0
+NP0548410,Marchawari,Rupandehi,,31770.0,38783.0,40880.0
+NP0548599,Lumbini Sanskritik,Rupandehi,,61155.0,72647.0,87383.0
+NP0549301,Shivaraj,Kapilbastu,,,,
+NP0549302,Buddhabhumi,Kapilbastu,,,,
+NP0549303,Banganga,Kapilbastu,,,,
+NP0549304,Krishnanagar,Kapilbastu,,,,
+NP0549305,Maharajganj,Kapilbastu,,,,
+NP0549306,Kapilbastu,Kapilbastu,,,,
+NP0549401,Bijayanagar,Kapilbastu,,,,
+NP0549402,Yasodhara,Kapilbastu,,,,
+NP0549403,Mayadevi,Kapilbastu,,,,
+NP0549404,Shuddhodhan,Kapilbastu,,,,
+NP0550301,Bhumikasthan,Arghakhanchi,,35250.0,32640.0,28192.0
+NP0550302,Sandhikharka,Arghakhanchi,,,41772.0,42492.0
+NP0550303,Shitaganga,Arghakhanchi,,44679.0,43401.0,37691.0
+NP0550401,Malarani,Arghakhanchi,,,28044.0,24150.0
+NP0550402,Chhatradev,Arghakhanchi,,,25343.0,21611.0
+NP0550403,Panini,Arghakhanchi,,,26432.0,22291.0
+NP0551301,Musikot,Gulmi,,,33000.0,28454.0
+NP0551302,Resunga,Gulmi,,,33225.0,31551.0
+NP0551401,Madane,Gulmi,,21949.0,21948.0,20022.0
+NP0551402,Malika,Gulmi,,,21729.0,20075.0
+NP0551403,Dhurkot,Gulmi,,,22468.0,18814.0
+NP0551404,Isma,Gulmi,,21925.0,21030.0,18529.0
+NP0551405,Gulmi Durbar,Gulmi,Gulmi Darbar,24373.0,22047.0,19296.0
+NP0551406,Chandrakot,Gulmi,,24502.0,21907.0,18662.0
+NP0551407,Chhatrakot,Gulmi,,23461.0,21504.0,19357.0
+NP0551408,Ruruchhetra,Gulmi,,,,
+NP0551409,Satyawoti,Gulmi,Satyawati,26932.0,23807.0,19473.0
+NP0551410,Kali Gandaki,Gulmi,,22140.0,18885.0,15044.0
+NP0552401,Sisne,Rukum East,,,,
+NP0552402,Putha Uttanganga,Rukum East,,,,
+NP0552403,Bhoome,Rukum East,,,,
+NP0552598,Dhorpatan,Rukum East,,,,
+NP0554301,Rolpa,Rolpa,,,34347.0,35376.0
+NP0554401,Gangadev,Rolpa,Gangadev [Sukidaha],,20009.0,21503.0
+NP0554402,Pariwartan,Rolpa,Paribartan [Duikholi],20123.0,20778.0,21671.0
+NP0554403,Thawang,Rolpa,Thabang,10728.0,10881.0,10851.0
+NP0554404,Madi,Rolpa,,,17986.0,18056.0
+NP0554405,Sunchhahari,Rolpa,,,16034.0,17241.0
+NP0554406,Tribeni,Rolpa,Triveni,,24110.0,23412.0
+NP0554407,Sunil Smriti,Rolpa,Sunilsmriti [Suwarnabati],,28213.0,30617.0
+NP0554408,Lungri,Rolpa,,20997.0,23631.0,26325.0
+NP0554409,Runtigadhi,Rolpa,,,28517.0,28291.0
+NP0555301,Sworgadwari,Pyuthan,Swargadwari,28697.0,31187.0,32037.0
+NP0555302,Pyuthan,Pyuthan,,,39460.0,42130.0
+NP0555401,Naubahini,Pyuthan,,26026.0,30310.0,32682.0
+NP0555402,Gaumukhi,Pyuthan,,,25421.0,25980.0
+NP0555403,Jhimaruk,Pyuthan,Jhimruk,,27931.0,26130.0
+NP0555404,Mandavi,Pyuthan,,,15058.0,15863.0
+NP0555405,Mallarani,Pyuthan,,,17686.0,15646.0
+NP0555406,Sarumarani,Pyuthan,,,18657.0,19783.0
+NP0555407,Aairawati,Pyuthan,Airawati,,22392.0,20428.0
+NP0556201,Tulsipur,Dang,,,,
+NP0556202,Ghorahi,Dang,,,,
+NP0556301,Lamahi,Dang,,,,
+NP0556401,Babai,Dang,,,,
+NP0556402,Dangisharan,Dang,,,,
+NP0556403,Shantinagar,Dang,,,,
+NP0556404,Rajpur,Dang,,,,
+NP0556405,Bangalachuli,Dang,,,,
+NP0556406,Gadhawa,Dang,,,,
+NP0556407,Rapti,Dang,,,,
+NP0557201,Nepalganj,Banke,,,141241.0,164444.0
+NP0557301,Kohalpur,Banke,,41999.0,72748.0,101667.0
+NP0557401,Khajura,Banke,,45605.0,50990.0,62789.0
+NP0557402,Baijanath,Banke,,45481.0,54987.0,69472.0
+NP0557403,Janaki,Banke,,31447.0,37847.0,46141.0
+NP0557404,Duduwa,Banke,,,37533.0,43135.0
+NP0557405,Rapti Sonari,Banke,,53009.0,60925.0,66445.0
+NP0557406,Narainapur,Banke,,30130.0,35042.0,43206.0
+NP0558301,Rajapur,Bardiya,,58820.0,59818.0,60831.0
+NP0558302,Madhuwan,Bardiya,,42606.0,46682.0,50739.0
+NP0558303,Thakurbaba,Bardiya,,38601.0,45173.0,49420.0
+NP0558304,Gulariya,Bardiya,,56532.0,68164.0,74505.0
+NP0558305,Barbardiya,Bardiya,,59737.0,68031.0,72533.0
+NP0558306,Bansgadhi,Bardiya,,48617.0,55875.0,63252.0
+NP0558401,Geruwa,Bardiya,,34088.0,34885.0,33514.0
+NP0558402,Badhaiyatal,Bardiya,,42892.0,47948.0,52818.0
+NP0558597,Bardiya,Bardiya,Barbardiya,59737.0,68031.0,72533.0
+NP0652301,Aathabisakot,Rukum West,,,,
+NP0652302,Chaurjahari,Rukum West,,,,
+NP0652303,Musikot,Rukum West,,,,
+NP0652401,Sanibheri,Rukum West,,,,
+NP0652402,Banphikot,Rukum West,,,,
+NP0652403,Tribeni,Rukum West,,,,
+NP0653301,Banagad Kupinde,Salyan,Bangad Kupinde,,36135.0,32940.0
+NP0653302,Bagachour,Salyan,Bagchaur,20235.0,34143.0,34021.0
+NP0653303,Sharada,Salyan,,29411.0,34242.0,34663.0
+NP0653401,Kumakh,Salyan,,22101.0,24988.0,24859.0
+NP0653402,Darma,Salyan,,,19966.0,20139.0
+NP0653403,Siddha Kumakh,Salyan,Siddha Kumakh [Dhorchaur],10082.0,13593.0,13127.0
+NP0653404,Kalimati,Salyan,,14790.0,23005.0,22206.0
+NP0653405,Chhatreshwori,Salyan,Chhatreshwari,10985.0,21452.0,21242.0
+NP0653406,Tribeni,Salyan,Triveni,13211.0,16647.0,16664.0
+NP0653407,Kapurkot,Salyan,,16698.0,18273.0,17526.0
+NP0659301,Panchapuri,Surkhet,,26911.0,32236.0,35839.0
+NP0659302,Bheriganga,Surkhet,,,41865.0,48203.0
+NP0659303,Birendranagar,Surkhet,,67649.0,105107.0,153863.0
+NP0659304,Lekabeshi,Surkhet,Lekbeshi,,31583.0,31710.0
+NP0659305,Gurbhakot,Surkhet,,39484.0,44359.0,48216.0
+NP0659401,Chaukune,Surkhet,,23072.0,25240.0,26950.0
+NP0659402,Barahatal,Surkhet,,24303.0,26820.0,25943.0
+NP0659403,Chingad,Surkhet,,15633.0,17275.0,15600.0
+NP0659404,Simta,Surkhet,,,26319.0,24083.0
+NP0660301,Chhedagad,Jajarkot,,,35295.0,37877.0
+NP0660302,Bheri Malika,Jajarkot,Bheri,,34713.0,37892.0
+NP0660303,Nalgad,Jajarkot,,,,
+NP0660401,Junichande,Jajarkot,,16344.0,21733.0,23771.0
+NP0660402,Kuse,Jajarkot,,,20621.0,23058.0
+NP0660403,Barekot,Jajarkot,,13929.0,18083.0,22005.0
+NP0660404,Shivalaya,Jajarkot,,12764.0,15269.0,14776.0
+NP0661301,Aathbis,Dailekh,Aathabis,22169.0,29257.0,31092.0
+NP0661302,Chamunda Bindrasaini,Dailekh,,20801.0,26149.0,26559.0
+NP0661303,Dullu,Dailekh,,,41540.0,39143.0
+NP0661304,Narayan,Dailekh,,,27922.0,26111.0
+NP0661401,Thantikandh,Dailekh,,14801.0,18896.0,18301.0
+NP0661402,Bhairabi,Dailekh,,,21233.0,18767.0
+NP0661403,Mahabu,Dailekh,,,19277.0,18059.0
+NP0661404,Naumule,Dailekh,,19704.0,20802.0,19687.0
+NP0661405,Gurans,Dailekh,,19781.0,22033.0,21189.0
+NP0661406,Dungeshwor,Dailekh,Dungeshwar,15424.0,15883.0,14533.0
+NP0661407,Bhagawatimai,Dailekh,,15887.0,18778.0,18206.0
+NP0662301,Tripurasundari,Dolpa,,,10615.0,12233.0
+NP0662302,Thulibheri,Dolpa,,,8571.0,9861.0
+NP0662401,Shey Phoksundo,Dolpa,She Phoksundo,,3136.0,3635.0
+NP0662402,Jagadulla,Dolpa,Jagdulla,,2322.0,2575.0
+NP0662403,Dolpo Buddha,Dolpa,,1897.0,2137.0,2420.0
+NP0662404,Mudkechula,Dolpa,,3933.0,5165.0,5803.0
+NP0662405,Kaike,Dolpa,,,3303.0,3965.0
+NP0662406,Chharka Tangsong,Dolpa,,1283.0,1451.0,1672.0
+NP0663301,Chandannath,Jumla,,,20371.0,21036.0
+NP0663401,Kanaka Sundari,Jumla,Kankasundari,8419.0,13216.0,13625.0
+NP0663402,Sinja,Jumla,,4765.0,12008.0,12556.0
+NP0663403,Patarasi,Jumla,,11400.0,14608.0,16824.0
+NP0663404,Hima,Jumla,,4933.0,10553.0,12191.0
+NP0663405,Tila,Jumla,,11431.0,13607.0,14539.0
+NP0663406,Tatopani,Jumla,,11208.0,14638.0,15575.0
+NP0663407,Guthichaur,Jumla,,5353.0,9920.0,10922.0
+NP0664301,Raskot,Kalikot,,,16272.0,17425.0
+NP0664302,Khandachakra,Kalikot,,,20618.0,22274.0
+NP0664303,Tilagupha,Kalikot,Tilagufa,,15766.0,16197.0
+NP0664401,Naraharinath,Kalikot,Narharinath,17006.0,21381.0,22458.0
+NP0664402,Sanni Tribeni,Kalikot,Sanni Triveni,,12846.0,13491.0
+NP0664403,Pachal Jharana,Kalikot,,,12343.0,13687.0
+NP0664404,Palata,Kalikot,,12101.0,15303.0,17346.0
+NP0664405,Shuva Kalika,Kalikot,Shubha Kalika,,14080.0,13773.0
+NP0664406,Mahawai,Kalikot,,,8339.0,8177.0
+NP0665301,Chhayanath Rara,Mugu,,,20457.0,24527.0
+NP0665401,Khatyad,Mugu,,12326.0,17146.0,18832.0
+NP0665402,Soru,Mugu,,,12260.0,14277.0
+NP0665403,Mugumakarmarog,Mugu,Mugum Karmarong,5105.0,5423.0,6222.0
+NP0666401,Namkha,Humla,,,4250.0,3589.0
+NP0666402,Simkot,Humla,,,12038.0,11935.0
+NP0666403,Kharpunath,Humla,,5139.0,6045.0,6736.0
+NP0666404,Sarkegad,Humla,,,9868.0,10688.0
+NP0666405,Chankheli,Humla,,,5541.0,6579.0
+NP0666406,Tanjakot,Humla,,4280.0,5976.0,6092.0
+NP0666407,Adanchuli,Humla,,,7140.0,8265.0
+NP0767301,Bungal,Bajhang,,27284.0,33224.0,33812.0
+NP0767302,Jayaprithbi,Bajhang,Jaya Prithvi,19093.0,22553.0,21933.0
+NP0767401,Saipal,Bajhang,Saipal [Kanda],1715.0,2193.0,2625.0
+NP0767402,Surma,Bajhang,,6523.0,9033.0,11082.0
+NP0767403,Talkot,Bajhang,,9130.0,11569.0,11719.0
+NP0767404,Bitthadchir,Bajhang,,14164.0,17163.0,17812.0
+NP0767405,Kedarsyun,Bajhang,Kedarsyu,18490.0,21316.0,21312.0
+NP0767406,Durgathali,Bajhang,,12022.0,12980.0,11318.0
+NP0767407,Chhabis Pathibhara,Bajhang,Chhabispathibhera,14569.0,16296.0,14474.0
+NP0767408,Masta,Bajhang,,12114.0,14951.0,13265.0
+NP0767409,Thalara,Bajhang,,16028.0,17978.0,15958.0
+NP0767410,Khaptad Chhanna,Bajhang,,15715.0,15903.0,13419.0
+NP0767597,Khaptad,Bajhang,Khaptadchhanna,15715.0,15903.0,13419.0
+NP0768301,Budhinanda,Bajura,,,18883.0,20072.0
+NP0768302,Badimalika,Bajura,,,17259.0,18414.0
+NP0768303,Budhiganga,Bajura,,18697.0,21700.0,20185.0
+NP0768304,Tribeni,Bajura,Triveni,14938.0,18363.0,17798.0
+NP0768401,Himali,Bajura,,,9229.0,10309.0
+NP0768402,Gaumul,Bajura,,,8515.0,8913.0
+NP0768403,Khaptad Chhededaha,Bajura,Chhededaha,15812.0,18741.0,19307.0
+NP0768404,Jagannath,Bajura,Jagannath [Pandav Gupha],,9432.0,10158.0
+NP0768405,Swamikartik Khapar,Bajura,,10889.0,12790.0,12576.0
+NP0768597,Khaptad,Bajura,,,,
+NP0769301,Sanphebagar,Achham,,,34128.0,25891.0
+NP0769302,Mangalsen,Achham,,,33191.0,26557.0
+NP0769303,Kamal bazar,Achham,,,23770.0,21032.0
+NP0769304,Panchdebal Binayak,Achham,Panchadewal Binayak,,27495.0,26088.0
+NP0769401,Chaurpati,Achham,,23323.0,25215.0,21681.0
+NP0769402,Mellekh,Achham,,21219.0,24728.0,22785.0
+NP0769403,Bannigadhi Jayagadh,Achham,Bannigadhi Jaygadh,17102.0,17426.0,13519.0
+NP0769404,Ramaroshan,Achham,,20749.0,25172.0,23600.0
+NP0769405,Dhakari,Achham,,,21570.0,21998.0
+NP0769406,Turmakhand,Achham,Turmakhad,21520.0,24782.0,24574.0
+NP0769597,Khaptad,Achham,,,,
+NP0770301,Shikhar,Doti,,32462.0,32326.0,30399.0
+NP0770302,Dipayal Silgadhi,Doti,,,36038.0,33968.0
+NP0770401,Aadarsha,Doti,,24208.0,24482.0,24495.0
+NP0770402,Sayal,Doti,,,19575.0,20456.0
+NP0770403,Purbichouki,Doti,Purbichauki,,22489.0,21494.0
+NP0770404,Jorayal,Doti,,,21296.0,19788.0
+NP0770405,K.I. Singh,Doti,,21073.0,20903.0,20736.0
+NP0770406,Badi Kedar,Doti,,16572.0,16731.0,14902.0
+NP0770407,Bogatan Phudsil,Doti,Bogtan Phudsil,19638.0,17906.0,15540.0
+NP0770597,Khaptad,Doti,,,,
+NP0771201,Dhangadhi,Kailali,,105586.0,149818.0,198792.0
+NP0771301,Godawari,Kailali,,,79686.0,98746.0
+NP0771302,Gauriganga,Kailali,,,58286.0,64558.0
+NP0771303,Ghodaghodi,Kailali,,55579.0,75965.0,86034.0
+NP0771304,Bhajani,Kailali,,45768.0,52128.0,53494.0
+NP0771305,Tikapur,Kailali,,59917.0,76940.0,89835.0
+NP0771306,Lamki Chuha,Kailali,,61074.0,76007.0,90971.0
+NP0771401,Chure,Kailali,,16652.0,19157.0,21400.0
+NP0771402,Kailari,Kailali,,,47987.0,49917.0
+NP0771403,Mohanyal,Kailali,,20975.0,22053.0,21082.0
+NP0771404,Joshipur,Kailali,,32571.0,36459.0,37187.0
+NP0771405,Bardagoriya,Kailali,,24770.0,32683.0,37682.0
+NP0771406,Janaki,Kailali,,50114.0,48540.0,49860.0
+NP0772301,Dodhara Chandani,Kanchanpur,,,,
+NP0772302,Bhimdatta,Kanchanpur,,,,
+NP0772303,Bedkot,Kanchanpur,,,,
+NP0772304,Shuklaphanta,Kanchanpur,,,,
+NP0772305,Krishnapur,Kanchanpur,,,,
+NP0772306,Belouri,Kanchanpur,,,,
+NP0772307,Punarbas,Kanchanpur,,,,
+NP0772401,Beldandi,Kanchanpur,,,,
+NP0772402,Laljhadi,Kanchanpur,,,,
+NP0772597,Shuklaphanta,Kanchanpur,,,,
+NP0773301,Parashuram,Dadeldhura,Parshuram,30093.0,35030.0,35590.0
+NP0773302,Amargadhi,Dadeldhura,,18390.0,22241.0,24149.0
+NP0773401,Bhageshwor,Dadeldhura,Bhageshwar,13356.0,14132.0,13132.0
+NP0773402,Ajayameru,Dadeldhura,Ajaymeru,17503.0,17066.0,15161.0
+NP0773403,Nawadurga,Dadeldhura,Navadurga,17987.0,19985.0,18672.0
+NP0773404,Aalital,Dadeldhura,,14157.0,18531.0,18112.0
+NP0773405,Ganyapdhura,Dadeldhura,Ganyapadhura,14277.0,15109.0,13722.0
+NP0774301,Dasharathchand,Baitadi,,,35211.0,31567.0
+NP0774302,Puchaundi,Baitadi,Purchaudi,34374.0,39190.0,38281.0
+NP0774303,Melauli,Baitadi,,,22545.0,20658.0
+NP0774304,Patan,Baitadi,,29250.0,30456.0,29230.0
+NP0774401,Dilasaini,Baitadi,Dilashaini,21198.0,22924.0,22966.0
+NP0774402,Dogada Kedar,Baitadi,Dogdakedar,,24632.0,23104.0
+NP0774403,Surnaya,Baitadi,,,18549.0,17945.0
+NP0774404,Pancheshwor,Baitadi,Pancheshwar,,18766.0,17796.0
+NP0774405,Shivanath,Baitadi,,,17115.0,18064.0
+NP0774406,Sigas,Baitadi,,,21510.0,21814.0
+NP0775301,Mahakali,Darchula,,,21881.0,24081.0
+NP0775302,Shailyashikhar,Darchula,,19829.0,22200.0,21807.0
+NP0775401,Byas,Darchula,Byans,10346.0,10347.0,9668.0
+NP0775402,Duhun,Darchula,,10607.0,10818.0,9842.0
+NP0775403,Apihimal,Darchula,,,6779.0,6798.0
+NP0775404,Malikarjun,Darchula,,15889.0,15581.0,15635.0
+NP0775405,Naugad,Darchula,,13143.0,15874.0,15528.0
+NP0775406,Lekam,Darchula,,15137.0,14838.0,13743.0
+NP0775407,Marma,Darchula,,,14956.0,15124.0
