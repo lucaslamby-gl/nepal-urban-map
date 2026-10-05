@@ -63,7 +63,7 @@ aside{border-right:1px solid var(--line);background:var(--panel);display:flex;fl
 #map{position:absolute;inset:0}
 .legend{position:absolute;left:12px;bottom:28px;background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:4px;padding:10px 12px;font-size:12px;max-width:280px}
 .legend h3{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:500}
-.ramp{height:10px;border-radius:2px;background:linear-gradient(90deg,#fdf1c7,#f9c268,#ec7a4a,#c23b5a,#7a1f6a,#2e0f3f)}
+.ramp{height:10px;border-radius:2px;background:linear-gradient(90deg,#fcf7e2 0%,#fce4a0 16%,#f9bc60 33%,#ec7a4a 50%,#c23b5a 66%,#7a1f6a 83%,#280c38 100%)}
 .ramplbl{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10px;color:var(--muted);margin-top:3px}
 .lg{display:flex;align-items:center;gap:8px;margin-top:5px}
 .sw{width:18px;height:10px;border-radius:2px;flex:none}
@@ -135,7 +135,7 @@ footer a{color:inherit}
   <div class="legend">
     <h3>People per km², 0.7 km² hexagons</h3>
     <div class="ramp"></div>
-    <div class="ramplbl"><span>&lt;100</span><span>500</span><span>1,500</span><span>5,000</span><span>&gt;15,000</span></div>
+    <div class="ramplbl"><span>&lt;75</span><span>250</span><span>750</span><span>1,500</span><span>5,000</span><span>&gt;25,000</span></div>
     <div class="lg"><span class="sw" style="border:2px solid #1d1f22;background:none;height:8px"></span>Urban centre (Degree of Urbanisation)</div>
     <div class="lg"><span class="sw" style="background:#55585f;height:2px"></span>Trunk and primary highways</div>
     <div class="lg"><span class="sw" style="background:#2b6cb0;width:10px;height:10px;border-radius:50%"></span>Border crossing</div>
@@ -157,8 +157,9 @@ footer a{color:inherit}
 
 <script>
 const Y0=2001, Y1=2021;
-const COLORS=[[253,241,199],[249,194,104],[236,122,74],[194,59,90],[122,31,106],[46,15,63]];
-const BREAKS=[100,500,1500,5000,15000];   // people per km² -> colour bins
+const COLORS=[[252,247,226],[252,228,160],[249,188,96],[236,122,74],[194,59,90],[122,31,106],[40,12,56]];
+const BREAKS=[75,250,750,1500,5000,25000];   // people per km² -> colour bins (7 classes)
+const SHRINK=0.85;   // hexagon footprint scale, leaves gaps between columns
 const HEX_KM2=0.737;
 const VIEWS={nat:{center:[84.2,28.1],zoom:6.2,pitch:50,bearing:-6},ktm:{center:[85.33,27.68],zoom:10.3,pitch:55,bearing:-20},terai:{center:[87.1,26.6],zoom:8.4,pitch:50,bearing:0}};
 const STYLE=sat=>({version:8,glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
@@ -267,7 +268,7 @@ if(year===Y0)press(b0,b1);if(!style3d)press(s2,s3);if(sat)press(bs,bl);
 // data
 Promise.all([fetch('data/hex_2001.json').then(r=>r.json()),fetch('data/hex_2021.json').then(r=>r.json()),fetch('data/urban_centres.geojson').then(r=>r.json()),fetch('data/urban_centres_2001.geojson').then(r=>r.json()),fetch('data/roads.geojson').then(r=>r.json()),fetch('data/crossings.geojson').then(r=>r.json()),fetch('data/routes.json').then(r=>r.json())])
 .then(([h0,h1,uc,uc00,roads,xings,routes])=>{
-  const unpack=h=>h.h3.map((x,i)=>({h:x,p:h.pop[i],b:h3.cellToBoundary(x,true)}));
+  const unpack=h=>h.h3.map((x,i)=>{const b=h3.cellToBoundary(x,true);const c=h3.cellToLatLng(x);const cx=c[1],cy=c[0];return {h:x,p:h.pop[i],b:b.map(([lon,lat])=>[cx+(lon-cx)*SHRINK,cy+(lat-cy)*SHRINK])};});
   D.hex={[Y0]:unpack(h0),[Y1]:unpack(h1)};D.uc=uc;D.uc00=uc00;D.roads=roads;D.xings=xings;D.routes=routes;
   uc.features.forEach(f=>{for(const k of ['municipalities','mun_pop2021']){if(typeof f.properties[k]==='string'){try{f.properties[k]=JSON.parse(f.properties[k]);}catch(e){f.properties[k]=[f.properties[k]];}}}});
   document.getElementById('loading').remove();
